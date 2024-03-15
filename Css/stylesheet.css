@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #B494E9;
     margin: 10px;
     padding: 10px;
 }
@@ -14,7 +14,7 @@ body header{
     text-decoration: none;
 }
 body header h1{
-    color:rgb(255, 255, 255);
+    color:#FFAF8B;
 }
 
 body header nav{
@@ -37,7 +37,12 @@ body header nav ul li{
 body header nav a{
     text-decoration: none;
     font-weight: bold;
-    color:rgb(255, 255, 255);
+    color:#FFAF8B;
+    text-shadow: 0 0 2px #000000;
+}
+
+hr{
+    color: #FFAF8B;
 }
 
 main{
@@ -46,23 +51,29 @@ main{
 }
 
 main h1{
-    color: aliceblue;
+    color: #FFAF8B;
+    text-shadow: 0 0 5px #000000;
     margin-top: 2%;
 }
 
 main h2{
-    color: aliceblue;
+    color: #FFAF8B;    
+    text-shadow: 0 0 2px #000000;
     margin-top: 2%;
 }
 
 main p{
     text-align: left;
-    color: aliceblue;
+    color: #FFAF8B;
+    text-shadow: 0 0 2px #000000;
     margin-top: 2%;
     width: 20%;
     height: 10%;
 }
 
+main img{
+    margin-right: auto;
+}
 footer{
     margin-top: 5%;
 }

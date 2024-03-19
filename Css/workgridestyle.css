@@ -47,7 +47,7 @@ hr{
 
 main{
     align-content: right;
-    margin-left: 50%;
+    margin-left: 0%;
 }
 
 main h1{
@@ -75,6 +75,11 @@ main img{
     margin-right: auto;
 }
 
+main table{
+    /* align-content: center; */
+    margin-right: auto;
+    margin-left: auto;
+}
 footer{
     margin-top: 5%;
 }

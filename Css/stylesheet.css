@@ -1,7 +1,11 @@
 *{
+    outline: 1px dashed rgb(255, 255, 255);
+    outline-offset: -1px;
     margin: 0;
     padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
     background-color: #B494E9;
@@ -12,9 +16,6 @@ body{
 body header{
     align-self: center;
     text-decoration: none;
-}
-body header h1{
-    color:#FFAF8B;
 }
 
 body header nav{
@@ -47,7 +48,7 @@ hr{
 
 main{
     align-content: right;
-    margin-left: 50%;
+    margin-left: 0%;
 }
 
 main h1{
@@ -55,11 +56,30 @@ main h1{
     text-shadow: 0 0 5px #000000;
     margin-top: 2%;
 }
+main table{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+main table tr td h1{
+    color: #FFAF8B;
+    text-shadow: 0 0 5px #000000;
+    margin-top: 2%;
+    /* font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+}
 
 main h2{
     color: #FFAF8B;    
     text-shadow: 0 0 2px #000000;
     margin-top: 2%;
+    /* font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
 }
 
 main p{
@@ -69,6 +89,9 @@ main p{
     margin-top: 2%;
     width: 20%;
     height: 10%;
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main img{
@@ -82,10 +105,3 @@ footer{
 footer iframe{
     align-content: right;
 }
-
-.playfair-display-dunno {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }

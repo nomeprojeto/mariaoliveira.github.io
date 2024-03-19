@@ -1,4 +1,6 @@
 *{
+    outline: 1px dashed rgb(255, 255, 255);
+    outline-offset: -1px;
     margin: 0;
     padding: 0;
 }
@@ -50,47 +52,38 @@ main{
     margin-left: 0%;
 }
 
-main h1{
-    color: #FFAF8B;
-    text-shadow: 0 0 5px #000000;
-    margin-top: 2%;
-}
-
-main h2{
-    color: #FFAF8B;    
-    text-shadow: 0 0 2px #000000;
-    margin-top: 2%;
-}
-
-main p{
-    text-align: left;
-    color: #FFAF8B;
-    text-shadow: 0 0 2px #000000;
-    margin-top: 2%;
-    width: 20%;
-    height: 10%;
-}
-
-main img{
-    margin-right: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 main table{
-    /* align-content: center; */
     margin-right: auto;
     margin-left: auto;
+    padding: 1%;
+    border-collapse: separate;
+    border-spacing: 10px;
 }
+
+/* main table tr th{
+    background-color: #FFAF8B;
+} */
+
+main table tr td:hover{
+    text-decoration: none;
+    color: #FFAF8B;
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #947eb8;
+}
+
+main table tr td a{
+    text-decoration: none;
+    text-align: center;
+    color: #574771;
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 footer{
     margin-top: 5%;
 }
-
-footer iframe{
-    align-content: right;
-}
-
-.playfair-display-dunno {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }

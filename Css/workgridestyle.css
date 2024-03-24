@@ -3,6 +3,7 @@
     outline-offset: -1px;
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
 
 body{
@@ -15,16 +16,13 @@ body header{
     align-self: center;
     text-decoration: none;
 }
-body header h1{
-    color:#000000;
-}
 
 body header nav{
     width: 100%;
     height: 30%;
     margin: auto;
     align-content: center;
-    text-align: right;
+    text-align: center;
 }
 body header nav ul{
     list-style: none;
@@ -36,11 +34,12 @@ body header nav ul li{
      float: left;
      margin: 10px;
  }
+
 body header nav a{
     text-decoration: none;
     font-weight: bold;
-    color:#000000;
-    text-shadow: 0 0 2px #ffffff;
+    color:#FFAF8B;
+    text-shadow: 0 0 2px #000000;
 }
 
 hr{

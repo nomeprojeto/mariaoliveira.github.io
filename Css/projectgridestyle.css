@@ -3,9 +3,8 @@
     outline-offset: -1px;
     margin: 0;
     padding: 0;
+    background-color:#000000;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
     background-color: #B494E9;
@@ -35,7 +34,8 @@ body header nav ul li{
      float: left;
      margin: 10px;
  }
-body header nav a{
+
+ body header nav a{
     text-decoration: none;
     font-weight: bold;
     color:#FFAF8B;
@@ -51,57 +51,59 @@ main{
     margin-left: 0%;
 }
 
-main h1{
-    color: #FFAF8B;
-    text-shadow: 0 0 5px #000000;
-    margin-top: 2%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 main table{
     margin-right: auto;
     margin-left: auto;
+    width: auto;
+    height: auto;
     padding: 1%;
     border-collapse: separate;
     border-spacing: 10px;
 }
 
+main table tr td img{
+    max-width: 100%;
+    max-width: 100%;
+}
+
 main table tr td h1{
-    color: #FFAF8B;
-    text-shadow: 0 0 5px #000000;
-    margin-top: 2%;
-    /* font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: normal; */
-}
-
-main h2{
-    color: #FFAF8B;    
-    text-shadow: 0 0 2px #000000;
-    margin-top: 2%;
-    /* font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: normal; */
-}
-
-main p{
+    text-decoration: none;
     text-align: left;
-    color: #FFAF8B;
-    text-shadow: 0 0 2px #000000;
-    margin-top: 2%;
-    width: 20%;
-    height: 10%;
+    color: #c17c5c;
     font-family: "Puritan", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-main img{
-    margin-right: auto;
+main table tr td h2{
+    text-decoration: none;
+    text-align: left;
+    color: #ffb593;
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main table tr td p{
+    text-decoration: none;
+    text-align: left;
+    color: #FFAF8B;
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main table tr td:hover{
+    text-decoration: none;
+    color: #FFAF8B;
+    font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #947eb8;
 }
 
 footer{
     margin-top: 5%;
-}
-
-footer iframe{
-    align-content: right;
 }

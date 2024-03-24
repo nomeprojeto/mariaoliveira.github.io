@@ -16,7 +16,7 @@ body header{
     text-decoration: none;
 }
 body header h1{
-    color:#FFAF8B;
+    color:#000000;
 }
 
 body header nav{
@@ -39,8 +39,8 @@ body header nav ul li{
 body header nav a{
     text-decoration: none;
     font-weight: bold;
-    color:#FFAF8B;
-    text-shadow: 0 0 2px #000000;
+    color:#000000;
+    text-shadow: 0 0 2px #ffffff;
 }
 
 hr{
@@ -57,14 +57,17 @@ main{
 main table{
     margin-right: auto;
     margin-left: auto;
+    width: auto;
+    height: auto;
     padding: 1%;
     border-collapse: separate;
     border-spacing: 10px;
 }
 
-/* main table tr th{
-    background-color: #FFAF8B;
-} */
+main table tr td a img{
+    max-width: 100%;
+    max-width: 100%;
+}
 
 main table tr td:hover{
     text-decoration: none;

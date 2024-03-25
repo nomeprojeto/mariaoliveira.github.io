@@ -1,5 +1,5 @@
 *{
-    outline: 1px dashed rgb(255, 255, 255);
+    /* outline: 1px dashed rgb(255, 255, 255); */
     outline-offset: -1px;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #B494E9;
+    background-color: #b594e94f;
     margin: 10px;
     padding: 10px;
 }
@@ -18,6 +18,7 @@ body header{
 }
 
 body header nav{
+    background-color: #b594e94f;
     width: 100%;
     height: 30%;
     margin: auto;
@@ -25,35 +26,42 @@ body header nav{
     text-align: center;
 }
 body header nav ul{
+    background-color: transparent;
     list-style: none;
     display: inline-block;
     padding:10px;
  }
 
 body header nav ul li{
+    background-color: transparent;
      float: left;
      margin: 10px;
  }
 
- body header nav a{
+body header nav a{
+    background-color: transparent;
     text-decoration: none;
     font-weight: bold;
-    color:#FFAF8B;
+    color:#FDECFB;
     text-shadow: 0 0 2px #000000;
 }
 
-hr{
-    color: #FFAF8B;
+body hr{
+    color: #A4749F;
 }
 
-main{
+body main{
     align-content: right;
     margin-left: 0%;
+    background-color: transparent;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-main table{
+body main table{
+    /* background-color: #b594e90c; <--- porque é que o background do table
+                                        fica preto sendo que tenho um background no
+                                        body de roxo transparente? */
     margin-right: auto;
     margin-left: auto;
     width: auto;
@@ -63,47 +71,67 @@ main table{
     border-spacing: 10px;
 }
 
-main table tr td img{
+body main table tr{
+    background-color: transparent;
+}
+
+body main table tr td{
+    background-color: transparent;
+    width: 50%;
+    height: auto;
+}
+
+body main table tr td img{
+    background-color: transparent;
     max-width: 100%;
     max-width: 100%;
+    min-width: 20%;
+    min-height: 20%;
+    align-items: center;
 }
 
-main table tr td h1{
+body main table tr td h1{
+    background-color: transparent;
     text-decoration: none;
     text-align: left;
-    color: #c17c5c;
+    color: #FDECFB;
     font-family: "Puritan", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-main table tr td h2{
+body main table tr td h2{
+    background-color: transparent;
     text-decoration: none;
     text-align: left;
-    color: #ffb593;
+    color: #FDECFB;
     font-family: "Puritan", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic;
 }
 
-main table tr td p{
+body main table tr td p{
+    background-color: transparent;
     text-decoration: none;
     text-align: left;
-    color: #FFAF8B;
+    color: #FDECFB;
     font-family: "Puritan", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-orientation: sideways;
 }
 
-main table tr td:hover{
+body main table tr td p span{
+    background-color: transparent;
     text-decoration: none;
-    color: #FFAF8B;
+    text-align: left;
+    color: #FDECFB;
     font-family: "Puritan", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    background-color: #947eb8;
+    font-style: italic;
+    white-space: nowrap;
 }
 
-footer{
+body footer{
     margin-top: 5%;
 }

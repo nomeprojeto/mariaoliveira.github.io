@@ -1,14 +1,15 @@
 *{
-    outline: 1px dashed rgb(255, 255, 255);
+    /* outline: 1px dashed rgb(255, 255, 255); */
     outline-offset: -1px;
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
-    background-color: #B494E9;
+    background-color: #b594e94f;
     margin: 10px;
     padding: 10px;
 }
@@ -16,86 +17,119 @@ body{
 body header{
     align-self: center;
     text-decoration: none;
+    border-bottom-style: solid;
+    border-width: 6px;
+    border-color: #A4749F;
 }
 
 body header nav{
+    background-color: #b594e94f;
     width: 100%;
     height: 30%;
     margin: auto;
     align-content: center;
     text-align: center;
 }
+
 body header nav ul{
+    background-color: transparent;
     list-style: none;
     display: inline-block;
     padding:10px;
  }
 
 body header nav ul li{
+    background-color: transparent;
      float: left;
      margin: 10px;
  }
+
 body header nav a{
+    background-color: transparent;
     text-decoration: none;
     font-weight: bold;
-    color:#FFAF8B;
+    color:#FDECFB;
     text-shadow: 0 0 2px #000000;
 }
 
-hr{
-    color: #FFAF8B;
-}
-
-main{
+body main{
     align-content: right;
     margin-left: 0%;
+    background-color: transparent;
 }
 
-main h1{
-    color: #FFAF8B;
-    text-shadow: 0 0 5px #000000;
-    margin-top: 2%;
-}
-main table{
+body main table{
+    background-color: rgb(49, 37, 67);
     margin-right: auto;
     margin-left: auto;
-    padding: 1%;
+    width: auto;
+    height: auto;
     border-collapse: separate;
     border-spacing: 10px;
 }
 
-main table tr td h1{
-    color: #FFAF8B;
-    text-shadow: 0 0 5px #000000;
-    margin-top: 2%;
-    /* font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: normal; */
+body main table tr{
+    background-color: rgba(49,37,67);
 }
 
-main h2{
-    color: #FFAF8B;    
-    text-shadow: 0 0 2px #000000;
-    margin-top: 2%;
-    /* font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: normal; */
+body main table tr th{
+    background-color: rgba(49,37,67);
+    width: 50%;
+    height: auto;
 }
 
-main p{
+body main table tr td{
+    background-color: rgba(49,37,67);
+    width: 50%;
+    height: auto;
+}
+
+body main table tr th img{
+    max-width: 100%;
+    max-width: 100%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: rgba(49,37,67);
+}
+
+body main table tr td h1{
+    max-width: 70%;
+    max-height: 70%;
+    text-decoration: none;
     text-align: left;
-    color: #FFAF8B;
-    text-shadow: 0 0 2px #000000;
-    margin-top: 2%;
-    width: 100%;
-    height: 100%;
+    color: #FDECFB;
+    /* font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    background-color: rgba(49,37,67);
+}
+
+body main table tr td h2{
+    text-decoration: none;
+    text-align: left;
+    color: #FDECFB;
+    /* font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    background-color: rgba(49,37,67);
+}
+
+body main table tr th img{
+    max-width: 100%;
+    max-width: 100%;
+    min-width: 55%;
+    min-height: 55%;
+}
+
+body main table tr td p{
+    text-decoration: none;
+    text-align: left;
+    color: #FDECFB;
     font-family: "Puritan", sans-serif;
     font-weight: 400;
     font-style: normal;
-}
-
-main img{
-    margin-right: auto;
+    text-orientation: sideways;
+    background-color: rgba(49,37,67);
 }
 
 footer{

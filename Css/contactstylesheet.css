@@ -1,10 +1,12 @@
 *{
-    /* outline: 1px dashed rgb(255, 255, 255); */
+    outline: 1px dashed rgb(255, 255, 255);
     outline-offset: -1px;
     margin: 0;
     padding: 0;
     background-color: #000000;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
     background-color: #b594e94f;
@@ -52,62 +54,51 @@ body header nav a{
 
 body main{
     align-content: right;
-    margin-left: 0%;
-    background-color: transparent;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-body main table{
-    background-color: rgb(49, 37, 67);
-    margin-right: auto;
-    margin-left: auto;
-    width: auto;
-    height: auto;
-    padding: 1%;
-    border-collapse: separate;
-    border-spacing: 10px;
-}
-
-body main table tr{
-    background-color: rgba(49,37,67, 0.1);
-}
-
-body main table tr td{
-    background-color: rgba(49,37,67);
-    width: 50%;
-    height: auto;
-}
-
-body main table tr td a img{
-    max-width: 100%;
-    max-width: 100%;
-}
-
-main table tr td a{
-    text-decoration: none;
-    text-align: center;
+    margin: auto;
     background-color: rgba(49,37,67);
 }
 
-main table tr td h2{
+body main h1{
+    max-width: 70%;
+    max-height: 70%;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
+    color: #FDECFB;
+    /* font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    background-color: rgba(49,37,67);
+}
+
+body main h2{
+    max-width: auto;
+    max-height: auto;
+    text-decoration: none;
+    text-align: left;
+    color: #FDECFB;
+    /* font-family: "Puritan", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    background-color: rgba(49,37,67);
+}
+
+body main p{
+    max-width: 100%;
+    max-height: 100%;
+    text-decoration: none;
+    text-align: left;
     color: #FDECFB;
     font-family: "Puritan", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-orientation:sideways;
     background-color: rgba(49,37,67);
-}
-
-body main table tr td:hover{
-    text-decoration: none;
-    font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #caaaff;
 }
 
 footer{
     margin-top: 5%;
+}
+
+footer iframe{
+    align-content: right;
 }

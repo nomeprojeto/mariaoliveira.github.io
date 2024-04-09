@@ -15,6 +15,9 @@ body{
 body header{
     align-self: center;
     text-decoration: none;
+    border-bottom-style: solid;
+    border-width: 6px;
+    border-color: #A4749F;
 }
 
 body header nav{
@@ -46,10 +49,6 @@ body header nav a{
     text-shadow: 0 0 2px #000000;
 }
 
-body hr{
-    color: #A4749F;
-}
-
 body main{
     align-content: right;
     margin-left: 0%;
@@ -59,9 +58,7 @@ body main{
 @import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body main table{
-    /* background-color: #b594e90c; <--- porque é que o background do table
-                                        fica preto sendo que tenho um background no
-                                        body de roxo transparente? */
+    background-color: rgb(49, 37, 67);
     margin-right: auto;
     margin-left: auto;
     width: auto;
@@ -72,25 +69,16 @@ body main table{
 }
 
 body main table tr{
-    background-color: transparent;
+    background-color: rgba(49,37,67, 0.1);
 }
 
-body main table tr td{
-    background-color: transparent;
+body main table tr th{
+    background-color: rgba(49,37,67);
     width: 50%;
     height: auto;
 }
 
-body main table tr td img{
-    background-color: transparent;
-    max-width: 100%;
-    max-width: 100%;
-    min-width: 20%;
-    min-height: 20%;
-    align-items: center;
-}
-
-body main table tr td h1{
+body main table tr th h1{
     background-color: transparent;
     text-decoration: none;
     text-align: left;
@@ -100,7 +88,7 @@ body main table tr td h1{
     font-style: normal;
 }
 
-body main table tr td h2{
+body main table tr th h2{
     background-color: transparent;
     text-decoration: none;
     text-align: left;
@@ -110,7 +98,7 @@ body main table tr td h2{
     font-style: italic;
 }
 
-body main table tr td p{
+body main table tr th p{
     background-color: transparent;
     text-decoration: none;
     text-align: left;
@@ -121,7 +109,7 @@ body main table tr td p{
     text-orientation: sideways;
 }
 
-body main table tr td p span{
+body main table tr th p span{
     background-color: transparent;
     text-decoration: none;
     text-align: left;
@@ -130,6 +118,20 @@ body main table tr td p span{
     font-weight: 400;
     font-style: italic;
     white-space: nowrap;
+}
+
+body main table tr td{
+    background-color: rgba(49,37,67);
+    width: 50%;
+    height: auto;
+}
+
+body main table tr td img{
+    max-width: 100%;
+    max-width: 100%;
+    min-width: 20%;
+    min-height: 20%;
+    align-items: center;
 }
 
 body footer{

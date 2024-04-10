@@ -67,6 +67,8 @@ body main table{
     padding: 1%;
     border-collapse: separate;
     border-spacing: 10px;
+    max-width: 75%;
+    min-width: 40%;
 }
 
 body main table tr{
@@ -88,6 +90,7 @@ main table tr td a{
     text-decoration: none;
     text-align: center;
     background-color: rgba(49,37,67);
+    font-size: 14px;
 }
 
 main table tr td h2{

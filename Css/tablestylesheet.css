@@ -1,0 +1,57 @@
+*{
+    /* outline: 1px dashed rgb(255, 255, 255); */
+    outline-offset: -1px;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color: #b594e94f;
+    margin: 10px;
+    padding: 10px;
+}
+
+body header{
+    align-self: center;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-width: 6px;
+    border-color: #A4749F;
+}
+
+body header nav{
+    background-color: #b594e94f;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+body header nav ul{
+    background-color: transparent;
+    list-style: none;
+    display: inline-block;
+    padding:10px;
+ }
+
+body header nav ul li{
+    background-color: transparent;
+     float: left;
+     margin: 10px;
+ }
+
+body header nav a{
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    color:#FDECFB;
+    text-shadow: 0 0 2px #000000;
+}
+
+body main{
+    padding: 10px;
+}

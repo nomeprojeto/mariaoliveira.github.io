@@ -80,6 +80,7 @@ body main h2{
     font-weight: 400;
     font-style: normal; */
     background-color: rgba(49,37,67);
+    margin-bottom: 10px;
 }
 
 body main p{

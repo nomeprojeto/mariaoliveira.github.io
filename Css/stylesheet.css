@@ -1,5 +1,5 @@
 *{
-    outline: 1px dashed rgb(255, 255, 255);
+    /* outline: 1px dashed rgb(255, 255, 255); */
     outline-offset: -1px;
     margin: 0;
     padding: 0;
@@ -79,7 +79,7 @@ body main h2{
     color: #FDECFB;
     font-family: "Bodoni Moda", serif;
     font-weight: 400;
-    font-style: 22px;
+    font-style: 2px;
     background-color: #382e48;
     margin-bottom: 10px;
 }

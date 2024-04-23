@@ -65,6 +65,7 @@ body main div{
 body main div h2{
     width: 100%;
     background-color: #382e48;
+    font-size: 28px;
 }
 
 body main div img{
@@ -80,12 +81,20 @@ body main div p{
     background-color: #382e48;
 }
 
+body main div span{
+    flex-basis: 45%;
+    height: 40px;
+    align-self: center;
+    color: #3ee0c5;
+    background-color: #382e48;
+}
+
 #one{
     width: 100%;
     background-color: #382e48;
     margin-left: 25px;
     flex-basis: 45%;
-    height: 300px;
+    height: 230px;
 }
 
 #two{
@@ -96,33 +105,35 @@ body main div p{
 
 #three{
     flex-basis: 100%;
-    margin-top: 15px;
+    margin-top: 35px;
     height: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 #four{
     flex-basis: 60%;
     margin-top: 25px;
-    height: 220px;
+    height: 225px;
     background-color: #A4749F;
+    box-shadow: 10px 10px #000000;
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
     margin-bottom: 10px;
 }
 
 #four h2{
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 20px;
     text-align: center;
-    color: #bcf8ff;
     font-weight:400;
+    color: #3ee0c5;
     background-color: transparent;
 }
 
 #four li{
     background-color: #A4749F;
-    color: #bcf8ff;
+    color:#FDECFB;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 5px;
@@ -130,5 +141,64 @@ body main div p{
 }
 
 #fifth{
-    flex-basis: 100%;
+    flex-basis: 40%;
+    height: 135px;
+    background-color:#FDECFB;
+    box-shadow: 10px 10px #000000;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+
+#fifth h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight:400;
+    color: #A4749F;
+    background-color: transparent;
+}
+
+#fifth li{
+    background-color: transparent;
+    color:#A4749F;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#six{
+    flex-basis: 55%;
+    height: 165px;
+    background-color:#382e48;
+    box-shadow: 10px 10px #000000;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    margin-top: 30px;
+    margin-left: -50px;
+    margin-bottom: 10px;
+}
+
+#six h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight:400;
+    color: #A4749F;
+    background-color: transparent;
+}
+
+#six li{
+    background-color: transparent;
+    color:#A4749F;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    text-align: left;
 }

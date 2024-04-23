@@ -1,0 +1,134 @@
+*{
+    /* outline: 1px dashed rgb(255, 255, 255); */
+    outline-offset: -1px;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+body header{
+    align-self: center;
+    border-bottom-style: solid;
+    border-width: 6px;
+    border-color: #A4749F;
+}
+
+body header nav{
+    background-color: #382e48;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+body header nav ul{
+    display: inline-block;
+    padding:10px;
+ }
+
+body header nav ul li{
+     float: left;
+     margin: 10px;
+ }
+
+body header nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#FDECFB;
+    text-shadow: 0 0 2px #000000;
+}
+
+body main{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2%;
+
+}
+
+body main div{
+    background-color: #382e48;
+}
+
+body main div h2{
+    width: 100%;
+    background-color: #382e48;
+}
+
+body main div img{
+    width: 100%;
+    background-color: #382e48;
+    border: #000000;
+    border-width: 3px;
+    border-bottom-style: solid;
+}
+
+body main div p{
+    width: 100%;
+    background-color: #382e48;
+}
+
+#one{
+    width: 100%;
+    background-color: #382e48;
+    margin-left: 25px;
+    flex-basis: 45%;
+    height: 300px;
+}
+
+#two{
+    flex-basis: 45%;
+    height: 40px;
+    align-self: center;
+}
+
+#three{
+    flex-basis: 100%;
+    margin-top: 15px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+#four{
+    flex-basis: 60%;
+    margin-top: 25px;
+    height: 220px;
+    background-color: #A4749F;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    margin-bottom: 10px;
+}
+
+#four h2{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: #bcf8ff;
+    font-weight:400;
+    background-color: transparent;
+}
+
+#four li{
+    background-color: #A4749F;
+    color: #bcf8ff;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#fifth{
+    flex-basis: 100%;
+}

@@ -7,6 +7,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 
 body{
     background-color: #382e48;
@@ -16,10 +17,10 @@ body{
 
 body header{
     align-self: center;
-    text-decoration: none;
     border-bottom-style: solid;
     border-width: 6px;
     border-color: #A4749F;
+    margin-bottom: 30px;
 }
 
 body header nav{
@@ -48,26 +49,26 @@ body header nav a{
     text-decoration: none;
     font-weight: bold;
     color:#FDECFB;
+    font-size: 17px;
     text-shadow: 0 0 2px #000000;
 }
 
 body main{
     align-content: right;
     margin-left: 0%;
-    background-color: rgba(49,37,67);
+    background-color: #382e48;
 }
 
 
 body main h1{
     max-width: 70%;
     max-height: 70%;
-    text-decoration: none;
     text-align: left;
     color: #FDECFB;
-    font-family: "Puritan", sans-serif;
+    font-family: "Bodoni Moda", serif;
     font-weight: 400;
-    font-style: normal;
-    background-color: rgba(49,37,67);
+    font-style: 24px;
+    background-color: #382e48;
 }
 
 body main h2{
@@ -76,10 +77,10 @@ body main h2{
     text-decoration: none;
     text-align: left;
     color: #FDECFB;
-    /* font-family: "Puritan", sans-serif;
+    font-family: "Bodoni Moda", serif;
     font-weight: 400;
-    font-style: normal; */
-    background-color: rgba(49,37,67);
+    font-style: 22px;
+    background-color: #382e48;
     margin-bottom: 10px;
 }
 
@@ -93,13 +94,16 @@ body main p{
     font-weight: 400;
     font-style: normal;
     text-orientation:sideways;
-    background-color: rgba(49,37,67);
+    background-color: #382e48;
 }
 
 footer{
     margin-top: 5%;
+    background-color: #382e48;
 }
 
-footer iframe{
+footer p{
     align-content: right;
+    color: #FDECFB;
+    background-color: #382e48;
 }

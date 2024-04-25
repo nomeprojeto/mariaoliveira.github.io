@@ -70,3 +70,39 @@ body main table td{
     padding: 10px;
     background-color: rgb(49, 37, 67);
 }
+
+#one{
+    width: 100%;
+    background-color: #382e48;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #000000;
+    flex-basis: 100%;
+    height: 40px;
+}
+#one h2{
+    text-align: center;
+}
+#one h2 a{
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+#two{
+    width: 100%;
+    background-color: #382e48;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #000000;
+    flex-basis: 100%;
+    height: 40px;
+}
+#two h2{
+    text-align: center;
+}
+#two h2 a{
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}

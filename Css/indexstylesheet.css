@@ -173,7 +173,7 @@ body main div span{
 
 #six{
     flex-basis: 55%;
-    height: 165px;
+    height: 175px;
     background-color:#382e48;
     box-shadow: 10px 10px #000000;
     border-top-right-radius: 45px;
@@ -201,4 +201,117 @@ body main div span{
     margin-right: 15px;
     margin-bottom: 5px;
     text-align: left;
+}
+
+#seven{
+    background-color: transparent;
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+
+#seven p{
+    background-color: transparent;
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+
+#seven p a{
+    text-decoration: none;
+    color: #3ee0c5;
+    background-color: transparent;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    #one
+    {
+        margin-left: 100px;
+    }
+    #two
+    {
+        flex-basis: 100%;
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+    #three
+    {
+        margin-bottom: 45px;
+    }
+    #four
+    {
+        flex-basis: 70%;
+    }
+    #four li
+    {
+        margin-left: 25px;
+    };
+    #fifth
+    {
+        margin-top: -10px;
+        height: 165px;
+        flex-basis: 60%;
+    }
+    #six
+    {
+        margin-top: 30px;
+        flex-basis: 70%;
+        height: 175px;
+    }
+    #seven
+    {
+        margin-top: -2px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    body main figure 
+  {
+    width: 48%;
+  }
+  body main figure figcaption
+  {
+    font-size: 24px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+    body main figure 
+  {
+    width: 31.7%;
+  } 
+    body main figure figcaption
+    {
+    font-size: 22px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    body main figure 
+    {
+        width: 31.7%;
+    }
+    body main figure figcaption
+    {
+    font-size: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{  
+    body main figure
+    {
+        width: 23.4%;
+    }
+    body main figure figcaption
+    {
+    font-size: 18px;
+    }
 }

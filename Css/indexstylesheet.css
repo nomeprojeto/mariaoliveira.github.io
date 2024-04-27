@@ -222,9 +222,13 @@ body main div span{
     background-color: transparent;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+/* Extra smaller devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) 
 {
+    body
+    {
+        background-color:antiquewhite;
+    }
     #one
     {
         margin-left: 100px;
@@ -264,42 +268,133 @@ body main div span{
         margin-top: -2px;
     }
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    body
+    {
+        background-color: #3ee0c5;
+    }
+    #one
+    {
+        margin-left: 100px;
+    }
+    #two
+    {
+        flex-basis: 100%;
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+    #three
+    {
+        margin-bottom: 45px;
+    }
+    #four
+    {
+        flex-basis: 100%;
+    }
+    #four li
+    {
+        margin-left: 25px;
+    };
+    #fifth
+    {
+        margin-top: 10px;
+        height: 165px;
+        flex-basis: 100%;
+    }
+    #fifth li
+    {
+        background-color: transparent;
+        color:#A4749F;
+        margin-left: 30px;
+        margin-bottom: 5px;
+        text-align: left;
+    };
+    #six
+    {
+        margin-top: 20px;
+        flex-basis: 100%;
+        height: 175px;
+        margin-left: 0px;
+    }
+    #seven
+    {
+        margin-top: -2px;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) 
 {
-    body main figure 
-  {
-    width: 48%;
-  }
-  body main figure figcaption
-  {
-    font-size: 24px;
-  }
+    body
+    {
+        background-color:#FDECFB;
+    }
+    #one
+    {
+        margin-left: 100px;
+        flex-basis: 60%;
+    }
+    #two
+    {
+        flex-basis: 100%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #three
+    {
+        margin-bottom: 45px;
+    }
+    #four
+    {
+        flex-basis: 100%;
+    }
+    #four li
+    {
+        margin-left: 25px;
+    };
+    #fifth
+    {
+        margin-top: 10px;
+        height: 165px;
+        width: 180px;
+        flex-basis: 100%;
+    }
+    #fifth li
+    {
+        background-color: transparent;
+        color:#A4749F;
+        margin-left: 30px;
+        margin-bottom: 5px;
+        text-align: left;
+    };
+    #six
+    {
+        margin-top: 20px;
+        flex-basis: 100%;
+        height: 175px;
+    }
+    #seven
+    {
+        margin-top: -2px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)
 {
-    body main figure 
-  {
-    width: 31.7%;
-  } 
-    body main figure figcaption
+    body
     {
-    font-size: 22px;
+        background-color:bisque;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
 {
-    body main figure 
+    body
     {
-        width: 31.7%;
-    }
-    body main figure figcaption
-    {
-    font-size: 20px;
+        background-color:#941385;
     }
 }
 

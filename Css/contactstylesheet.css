@@ -1,0 +1,212 @@
+*{
+    /* outline: 1px dashed rgb(255, 255, 255); */
+    outline-offset: -1px;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+body header{
+    align-self: center;
+    border-bottom-style: solid;
+    border-width: 6px;
+    border-color: #A4749F;
+}
+
+body header nav{
+    background-color: #382e48;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+body header nav ul{
+    display: inline-block;
+    padding:10px;
+ }
+
+body header nav ul li{
+     float: left;
+     margin: 10px;
+ }
+
+body header nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#FDECFB;
+    text-shadow: 0 0 2px #000000;
+}
+
+body main{
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2%;
+}
+
+#mail{
+    width: 100%;
+    background-color: #382e48;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #000000;
+    flex-basis: 100%;
+    height: 40px;
+}
+#mail h2{
+    text-align: center;
+    flex-basis: 100%;
+}
+#mail h2 img{
+    color: #3ee0c5;
+    background: transparent;
+    width: 39px;
+}
+#mail h2 a{
+    text-align: center;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+#youtube{
+    width: 100%;
+    background-color: #382e48;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #000000;
+    flex-basis: 100%;
+    height: 40px;
+}
+#youtube h2{
+    text-align: center;
+}
+#youtube h2 img{
+    color: #3ee0c5;
+    background: transparent;
+    width: 39px;
+}
+#youtube h2 a{
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+#behance{
+    width: 100%;
+    background-color: #382e48;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #000000;
+    flex-basis: 100%;
+    height: 40px;
+}
+#behance h2{
+    text-align: center;
+}
+#behance h2 img{
+    color: #3ee0c5;
+    background: transparent;
+    width: 39px;
+}
+#behance h2 a{
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+#instagram{
+    width: 100%;
+    background-color: #382e48;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #000000;
+    flex-basis: 100%;
+    height: 40px;
+}
+#instagram h2{
+    text-align: center;
+}
+#instagram h2 img{
+    color: #3ee0c5;
+    background: transparent;
+    width: 39px;
+}
+#instagram h2 a{
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+}
+
+/* Extra smaller devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) 
+{
+    /* body
+    {
+        background-color:antiquewhite;
+    } */
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    body
+    {
+        background-color: #3ee0c5;
+    }
+    #mail
+    {
+        margin-bottom: 5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    body
+    {
+        background-color:#FDECFB;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+    body
+    {
+        background-color:bisque;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    body
+    {
+        background-color:#941385;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{  
+    body main figure
+    {
+        width: 23.4%;
+    }
+    body main figure figcaption
+    {
+    font-size: 18px;
+    }
+}

@@ -92,10 +92,11 @@ body main div span{
 
 #one{
     width: 100%;
-    background-color: #382e48;
+    background-color: transparent;
     margin-left: 25px;
     flex-basis: 45%;
     height: 230px;
+    border-radius: 45px;
 }
 
 #two{
@@ -382,7 +383,7 @@ footer{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) 
+@media only screen and (min-width: 600px) 
 {
     /* body
     {

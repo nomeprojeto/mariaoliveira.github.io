@@ -38,6 +38,7 @@ body header nav ul li{
  }
 
 body header nav a{
+    font-size: 16px;
     text-decoration: none;
     font-weight: bold;
     color:#FDECFB;
@@ -98,12 +99,18 @@ body main div span{
 }
 
 #two{
+    margin-top: 35px;
     flex-basis: 45%;
     height: 40px;
     align-self: center;
 }
 
+#two h2{
+    text-align: center;
+}
+
 #three{
+    font-size: 16px;
     flex-basis: 100%;
     margin-top: 35px;
     height: 60px;
@@ -118,6 +125,7 @@ body main div span{
     box-shadow: 10px 10px #000000;
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
     margin-bottom: 10px;
 }
 
@@ -132,6 +140,7 @@ body main div span{
 }
 
 #four li{
+    font-size: 16px;
     background-color: #A4749F;
     color:#FDECFB;
     margin-left: 15px;
@@ -163,6 +172,7 @@ body main div span{
 }
 
 #fifth li{
+    font-size: 16px;
     background-color: transparent;
     color:#A4749F;
     margin-left: 30px;
@@ -195,6 +205,7 @@ body main div span{
 }
 
 #six li{
+    font-size: 16px;
     background-color: transparent;
     color:#A4749F;
     margin-left: 30px;
@@ -210,6 +221,7 @@ body main div span{
 }
 
 #seven p{
+    font-size: 16px;
     background-color: transparent;
     text-align: center;
     flex-basis: 100%;
@@ -220,6 +232,10 @@ body main div span{
     text-decoration: none;
     color: #3ee0c5;
     background-color: transparent;
+}
+
+footer{
+    font-size: 16px;
 }
 
 /* Extra smaller devices (phones, 400px and down) */
@@ -275,138 +291,495 @@ body main div span{
     {
         background-color: #3ee0c5;
     }
-    #one
-    {
-        margin-left: 100px;
+    body header nav ul a{
+        font-size: 16px;
     }
-    #two
-    {
-        flex-basis: 100%;
-        margin-top: -40px;
+
+    #one{
+        width: 100%;
+        margin-left: 125px;
+        flex-basis: 45%;
+        height: 182px;
+    }
+    
+    #two{
+        flex-basis: 45%;
+        margin-left: 125px;
+        height: 44px;
+    }
+    #two h2{
+        font-size: 20px;
+    }
+    
+    #three{
+        font-size: 16px;
+        flex-basis: 90%;
+        margin-top: 35px;
+        height: 90px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    
+    #four{
+        flex-basis: 50%;
+        margin-top: 25px;
+        margin-left: 35px;
+        height: 205px;
+        margin-bottom: 10px;
+    }
+    #four h2{
+        font-size: 20px;
+    }
+    #four li{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    #fifth{
+        flex-basis: 50%;
+        margin-left: 200px;
+        height: 145px;
+        margin-top: -30px;
+        box-shadow: 10px 10px #000000;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 45px;
+        margin-bottom: 10px;
+    }
+    #fifth h2{
+        font-size: 20px;
+    }
+    #fifth li{
+        font-size: 16px;
         margin-left: 30px;
     }
-    #three
-    {
-        margin-bottom: 45px;
+    
+    #six{
+        flex-basis: 55%;
+        height: 180px;
+        margin-top: -30px;
+        margin-left: 35px;
     }
-    #four
-    {
+    #six h2{
+        font-size: 20px;
+    }
+    #six li{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    #seven{
         flex-basis: 100%;
+        margin-top: 50px;
     }
-    #four li
-    {
-        margin-left: 25px;
-    };
-    #fifth
-    {
-        margin-top: 10px;
-        height: 165px;
-        flex-basis: 100%;
+    #seven p{
+        font-size: 20px;
+        margin-top: 0px;
     }
-    #fifth li
-    {
-        background-color: transparent;
-        color:#A4749F;
-        margin-left: 30px;
-        margin-bottom: 5px;
-        text-align: left;
-    };
-    #six
-    {
-        margin-top: 20px;
-        flex-basis: 100%;
-        height: 175px;
-        margin-left: 0px;
-    }
-    #seven
-    {
-        margin-top: -2px;
+
+    footer{
+        font-size: 16px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) 
+@media only screen and (max-width: 600px) 
 {
-    body
+    /* body
     {
         background-color:#FDECFB;
+    } */
+
+    body header nav ul a{
+        font-size: 16px;
     }
-    #one
-    {
-        margin-left: 100px;
-        flex-basis: 60%;
+
+    #one{
+        width: 100%;
+        margin-left: 175px;
+        flex-basis: 45%;
+        height: 300px;
     }
-    #two
-    {
-        flex-basis: 100%;
-        margin-top: 30px;
+    
+    #two{
+        flex-basis: 45%;
+        margin-left: 175px;
+        height: 30px;
+    }
+    #two h2{
+        font-size: 22px;
+    }
+    
+    #three{
+        font-size: 16px;
+        flex-basis: 80%;
+        margin-top: 35px;
+        height: 70px;
+        margin-left: 60px;
+        margin-bottom: 25px;
+    }
+    
+    #four{
+        flex-basis: 50%;
+        margin-top: 25px;
+        margin-left: 75px;
+        height: 215px;
+        margin-bottom: 10px;
+    }
+    #four h2{
+        font-size: 22px;
+    }
+    #four li{
+        font-size: 16px;
+        margin-left: 40px;
+        margin-right: 15px;
+    }
+    
+    #fifth{
+        flex-basis: 30%;
+        margin-left: 350px;
+        height: 160px;
+        margin-top: -30px;
+        box-shadow: 10px 10px #000000;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 45px;
+        margin-bottom: 10px;
+    }
+    #fifth h2{
+        font-size: 22px;
+    }
+    #fifth li{
+        font-size: 16px;
         margin-left: 30px;
     }
-    #three
-    {
-        margin-bottom: 45px;
+    
+    #six{
+        flex-basis: 55%;
+        height: 200px;
+        margin-top: -30px;
+        margin-left: 75px;
     }
-    #four
-    {
+    #six h2{
+        font-size: 22px;
+    }
+    #six li{
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    #seven{
         flex-basis: 100%;
+        margin-top: 50px;
     }
-    #four li
-    {
-        margin-left: 25px;
-    };
-    #fifth
-    {
-        margin-top: 10px;
-        height: 165px;
-        width: 180px;
-        flex-basis: 100%;
+    #seven p{
+        font-size: 22px;
+        margin-top: 0px;
     }
-    #fifth li
-    {
-        background-color: transparent;
-        color:#A4749F;
-        margin-left: 30px;
-        margin-bottom: 5px;
-        text-align: left;
-    };
-    #six
-    {
-        margin-top: 20px;
-        flex-basis: 100%;
-        height: 175px;
-    }
-    #seven
-    {
-        margin-top: -2px;
+
+    footer{
+        font-size: 16px;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)
 {
-    body
+    /* body
     {
         background-color:bisque;
+    } */
+
+    body header nav ul a{
+        font-size: 16px;
+    }
+
+    #one{
+        width: 100%;
+        margin-left: 200px;
+        flex-basis: 45%;
+        height: 319px;
+    }
+    
+    #two{
+        flex-basis: 45%;
+        margin-left: 200px;
+        height: 40px;
+    }
+    #two h2{
+        font-size: 24px;
+    }
+    
+    #three{
+        font-size: 16px;
+        flex-basis: 80%;
+        margin-top: 35px;
+        height: 60px;
+        margin-left: 75px;
+        margin-bottom: 25px;
+    }
+    
+    #four{
+        flex-basis: 50%;
+        margin-top: 25px;
+        margin-left: 75px;
+        height: 215px;
+        margin-bottom: 10px;
+    }
+    #four h2{
+        font-size: 24px;
+    }
+    #four li{
+        font-size: 16px;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+    
+    #fifth{
+        flex-basis: 30%;
+        margin-left: 350px;
+        height: 160px;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    #fifth h2{
+        font-size: 24px;
+    }
+    #fifth li{
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    #six{
+        flex-basis: 35%;
+        height: 200px;
+        margin-top: -30px;
+        margin-left: 440px;
+    }
+    #six h2{
+        font-size: 24px;
+    }
+    #six li{
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    
+    #seven{
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+    #seven p{
+        font-size: 22px;
+        margin-top: 0px;
+    }
+
+    footer{
+        font-size: 16px;
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
 {
-    body
+    /* body
     {
         background-color:#941385;
+    } */
+
+    body header nav ul a{
+        font-size: 17px;
+    }
+
+    #one{
+        width: 100%;
+        margin-left: 275px;
+        flex-basis: 45%;
+        height: 392px;
+    }
+    
+    #two{
+        flex-basis: 45%;
+        margin-left: 275px;
+        height: 40px;
+    }
+    #two h2{
+        font-size: 26px;
+    }
+    
+    #three{
+        font-size: 17px;
+        flex-basis: 80%;
+        margin-top: 35px;
+        height: 60px;
+        margin-left: 100px;
+        margin-bottom: 25px;
+    }
+    
+    #four{
+        flex-basis: 50%;
+        margin-top: 25px;
+        margin-left: 100px;
+        height: 215px;
+        background-color: #A4749F;
+        box-shadow: 10px 10px #000000;
+        border-top-right-radius: 45px;
+        border-top-left-radius: 45px;
+        margin-bottom: 10px;
+    }
+    #four h2{
+        font-size: 26px;
+    }
+    #four li{
+        font-size: 17px;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+    
+    #fifth{
+        flex-basis: 30%;
+        margin-left: 400px;
+        height: 160px;
+        margin-top: -40px;
+        margin-bottom: 10px;
+    }
+    #fifth h2{
+        font-size: 26px;
+    }
+    #fifth li{
+        font-size: 17px;
+        margin-left: 50px;
+    }
+    
+    #six{
+        flex-basis: 35%;
+        height: 200px;
+        margin-top: -30px;
+        margin-left: 450px;
+    }
+    #six h2{
+        font-size: 26px;
+    }
+    #six li{
+        font-size: 17px;
+        margin-left: 50px;
+    }
+    
+    #seven{
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+    #seven p{
+        font-size: 22px;
+        margin-top: 0px;
+    }
+
+    footer{
+        font-size: 17px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)
 {  
-    body main figure
+    /* body
     {
-        width: 23.4%;
+        background-color:#2d9413;
+    } */
+
+    body header nav ul a{
+        font-size: 20px;
     }
-    body main figure figcaption
-    {
-    font-size: 18px;
+
+    #one{
+        width: 100%;
+        margin-left: 350px;
+        flex-basis: 45%;
+        height: 510px;
+    }
+    
+    #two{
+        flex-basis: 45%;
+        margin-left: 350px;
+        height: 40px;
+    }
+    #two h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    #three{
+        font-size: 19px;
+        flex-basis: 80%;
+        margin-top: 35px;
+        height: 60px;
+        margin-left: 100px;
+        margin-bottom: 25px;
+    }
+    
+    #four{
+        flex-basis: 50%;
+        margin-top: 25px;
+        margin-left: 100px;
+        height: 235px;
+        background-color: #A4749F;
+        box-shadow: 10px 10px #000000;
+        border-top-right-radius: 45px;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        margin-bottom: 10px;
+    }
+    #four h2{
+        font-size: 30px;
+    }
+    #four li{
+        font-size: 19px;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+    
+    #fifth{
+        flex-basis: 30%;
+        margin-left: 400px;
+        height: 170px;
+        margin-top: -40px;
+        margin-bottom: 10px;
+    }
+    #fifth h2{
+        font-size: 30px;
+    }
+    #fifth li{
+        font-size: 19px;
+        margin-left: 70px;
+    }
+    
+    #six{
+        flex-basis: 35%;
+        height: 210px;
+        margin-top: -30px;
+        margin-left: 450px;
+    }
+    #six h2{
+        font-size: 30px;
+    }
+    #six li{
+        font-size: 19px;
+        margin-left: 70px;
+    }
+    
+    #seven{
+        flex-basis: 100%;
+        margin-top: 0px;
+    }
+    #seven p{
+        font-size: 25px;
+        text-align: center;
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+    #seven p a{
+        text-decoration: none;
+        color: #3ee0c5;
+        background-color: transparent;
+    }
+
+    footer{
+        font-size: 19px;
     }
 }

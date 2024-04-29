@@ -201,12 +201,8 @@ body main{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)
 {  
-    body main figure
+    body
     {
-        width: 23.4%;
-    }
-    body main figure figcaption
-    {
-    font-size: 18px;
+        background-color:#776775;
     }
 }

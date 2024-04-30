@@ -57,95 +57,26 @@ body main{
     gap: 2%;
 }
 
-#mail{
+main>div{
+    height: 100px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
     background-color: #382e48;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    box-shadow: 2px 2px 5px 2px #000000;
-    flex-basis: 100%;
-    height: 40px;
-}
-#mail h2{
-    text-align: center;
-    flex-basis: 100%;
-}
-#mail h2 img{
-    color: #3ee0c5;
-    background: transparent;
-    width: 39px;
-}
-#mail h2 a{
-    text-align: center;
-    text-decoration: none;
-    color: #3ee0c5;
-    background: transparent;
 }
 
-#youtube{
-    width: 100%;
-    background-color: #382e48;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    box-shadow: 2px 2px 5px 2px #000000;
-    flex-basis: 100%;
-    height: 40px;
-}
-#youtube h2{
-    text-align: center;
-}
-#youtube h2 img{
+main>div>img{
     color: #3ee0c5;
+    margin-right: 10px;
     background: transparent;
     width: 39px;
 }
-#youtube h2 a{
-    text-decoration: none;
-    color: #3ee0c5;
-    background: transparent;
-}
-
-#behance{
-    width: 100%;
-    background-color: #382e48;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    box-shadow: 2px 2px 5px 2px #000000;
-    flex-basis: 100%;
-    height: 40px;
-}
-#behance h2{
-    text-align: center;
-}
-#behance h2 img{
-    color: #3ee0c5;
-    background: transparent;
-    width: 39px;
-}
-#behance h2 a{
-    text-decoration: none;
-    color: #3ee0c5;
-    background: transparent;
-}
-
-#instagram{
-    width: 100%;
-    background-color: #382e48;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    box-shadow: 2px 2px 5px 2px #000000;
-    flex-basis: 100%;
-    height: 40px;
-}
-#instagram h2{
-    text-align: center;
-}
-#instagram h2 img{
-    color: #3ee0c5;
-    background: transparent;
-    width: 39px;
-}
-#instagram h2 a{
+main>div>a{
+    font-size: 25px;
     text-decoration: none;
     color: #3ee0c5;
     background: transparent;
@@ -165,10 +96,6 @@ body main{
     body
     {
         background-color: #3ee0c5;
-    }
-    #mail
-    {
-        margin-bottom: 5px;
     }
 }
 

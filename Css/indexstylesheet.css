@@ -69,14 +69,6 @@ body main div h2{
     font-size: 28px;
 }
 
-body main div img{
-    width: 100%;
-    background-color: #382e48;
-    border: #000000;
-    border-width: 3px;
-    border-bottom-style: solid;
-}
-
 body main div p{
     width: 100%;
     background-color: #382e48;
@@ -98,14 +90,16 @@ body main div span{
     height: 230px;
     border-radius: 45px;
 }
-
+#one img{
+    width: 100%;
+    background-color: #382e48;
+}
 #two{
     margin-top: 35px;
     flex-basis: 45%;
     height: 40px;
     align-self: center;
 }
-
 #two h2{
     text-align: center;
 }
@@ -129,7 +123,6 @@ body main div span{
     border-bottom-left-radius: 45px;
     margin-bottom: 10px;
 }
-
 #four h2{
     margin-top: 10px;
     margin-bottom: 15px;
@@ -139,7 +132,6 @@ body main div span{
     color: #3ee0c5;
     background-color: transparent;
 }
-
 #four li{
     font-size: 16px;
     background-color: #A4749F;
@@ -161,7 +153,6 @@ body main div span{
     margin-top: -50px;
     margin-bottom: 10px;
 }
-
 #fifth h2{
     margin-top: 10px;
     margin-bottom: 15px;
@@ -171,7 +162,6 @@ body main div span{
     color: #A4749F;
     background-color: transparent;
 }
-
 #fifth li{
     font-size: 16px;
     background-color: transparent;
@@ -194,7 +184,6 @@ body main div span{
     margin-left: -50px;
     margin-bottom: 10px;
 }
-
 #six h2{
     margin-top: 10px;
     margin-bottom: 15px;
@@ -204,7 +193,6 @@ body main div span{
     color: #A4749F;
     background-color: transparent;
 }
-
 #six li{
     font-size: 16px;
     background-color: transparent;
@@ -220,7 +208,6 @@ body main div span{
     flex-basis: 100%;
     margin-top: 50px;
 }
-
 #seven p{
     font-size: 16px;
     background-color: transparent;
@@ -228,19 +215,53 @@ body main div span{
     flex-basis: 100%;
     margin-top: 50px;
 }
-
 #seven p a{
     text-decoration: none;
     color: #3ee0c5;
     background-color: transparent;
 }
 
+.ᓚᘏᗢᓚᘏᗢ
+{
+    border-radius: 3px;
+    padding: 10px;
+    background-color:#FDECFB;
+    position: fixed;
+    top: 480px;
+    right: 30px;
+    text-decoration: none;
+}
+.ᓚᘏᗢᓚᘏᗢ a
+{
+    color:#8e2281;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.ᓚᘏᗢᓚᘏᗢ2
+{
+    border-radius: 3px;
+    padding: 10px;
+    background-color:#FDECFB;
+    position: fixed;
+    top: 520px;
+    right: 30px;
+    text-decoration: none;
+}
+.ᓚᘏᗢᓚᘏᗢ2 a
+{
+    color:#8e2281;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 footer{
     font-size: 16px;
 }
 
+
 /* Extra smaller devices (phones, 400px and down) */
-@media only screen and (max-width: 400px) 
+@media only screen and (max-width: 400px) and (min-width:325px)
 {
     body
     {
@@ -248,13 +269,14 @@ footer{
     }
     #one
     {
-        margin-left: 100px;
+        margin-left: 10px;
+        flex-basis: 100%;
     }
     #two
     {
         flex-basis: 100%;
-        margin-top: -40px;
-        margin-left: 30px;
+        margin-top: 0px;
+        margin-left: 10px;
     }
     #three
     {
@@ -286,7 +308,7 @@ footer{
     }
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px)and(min-width:400px) 
 {
     body
     {
@@ -300,13 +322,13 @@ footer{
         width: 100%;
         margin-left: 125px;
         flex-basis: 45%;
-        height: 182px;
+        height: 25%;
     }
     
     #two{
         flex-basis: 45%;
         margin-left: 125px;
-        height: 44px;
+        height: 58px;
     }
     #two h2{
         font-size: 20px;
@@ -383,7 +405,7 @@ footer{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) 
+@media only screen and (max-width: 750px) and (min-width: 600px) 
 {
     /* body
     {
@@ -393,18 +415,16 @@ footer{
     body header nav ul a{
         font-size: 16px;
     }
-
     #one{
-        width: 100%;
-        margin-left: 175px;
+        margin-left: 23px;
         flex-basis: 45%;
-        height: 300px;
+        height: 25%;
     }
     
     #two{
         flex-basis: 45%;
-        margin-left: 175px;
-        height: 30px;
+        margin-top: -10px;
+        height: 25%;
     }
     #two h2{
         font-size: 22px;
@@ -412,33 +432,34 @@ footer{
     
     #three{
         font-size: 16px;
-        flex-basis: 80%;
+        flex-basis: 90%;
         margin-top: 35px;
-        height: 70px;
-        margin-left: 60px;
+        height: 90px;
+        margin-left: 23px;
         margin-bottom: 25px;
     }
     
     #four{
-        flex-basis: 50%;
+        flex-basis: 73%;
         margin-top: 25px;
-        margin-left: 75px;
+        margin-left: 23px;
         height: 215px;
         margin-bottom: 10px;
     }
     #four h2{
+        margin-top: 15px;
         font-size: 22px;
     }
     #four li{
         font-size: 16px;
-        margin-left: 40px;
+        margin-left: 20px;
         margin-right: 15px;
     }
     
     #fifth{
-        flex-basis: 30%;
-        margin-left: 350px;
-        height: 160px;
+        flex-basis: 40%;
+        margin-left: 300px;
+        height: 170px;
         margin-top: -30px;
         box-shadow: 10px 10px #000000;
         border-bottom-left-radius: 0px;
@@ -446,25 +467,28 @@ footer{
         margin-bottom: 10px;
     }
     #fifth h2{
+        margin-top: 15px;
         font-size: 22px;
     }
     #fifth li{
         font-size: 16px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     #six{
+        margin-top: 15px;
         flex-basis: 55%;
-        height: 200px;
+        height: 180px;
         margin-top: -30px;
-        margin-left: 75px;
+        margin-left: 115px;
     }
     #six h2{
+        margin-top: 15px;
         font-size: 22px;
     }
     #six li{
         font-size: 16px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
     #seven{
@@ -482,27 +506,21 @@ footer{
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 750px)
 {
-    /* body
-    {
-        background-color:bisque;
-    } */
-
     body header nav ul a{
         font-size: 16px;
     }
 
     #one{
         width: 100%;
-        margin-left: 200px;
+        margin-left: 25px;
         flex-basis: 45%;
-        height: 319px;
+        height: 25%;
     }
     
     #two{
         flex-basis: 45%;
-        margin-left: 200px;
         height: 40px;
     }
     #two h2{
@@ -511,56 +529,61 @@ footer{
     
     #three{
         font-size: 16px;
-        flex-basis: 80%;
+        flex-basis: 92%;
         margin-top: 35px;
-        height: 60px;
-        margin-left: 75px;
+        height: 70px;
+        margin-left: 25px;
         margin-bottom: 25px;
     }
     
     #four{
-        flex-basis: 50%;
+        flex-basis: 70%;
         margin-top: 25px;
-        margin-left: 75px;
-        height: 215px;
+        margin-left: 25px;
+        height: 200px;
         margin-bottom: 10px;
     }
     #four h2{
+        margin-top: 15px;
         font-size: 24px;
     }
     #four li{
         font-size: 16px;
-        margin-left: 50px;
+        margin-left: 27px;
         margin-right: 15px;
     }
     
     #fifth{
-        flex-basis: 30%;
-        margin-left: 350px;
+        flex-basis: 35%;
+        margin-left: 400px;
         height: 160px;
         margin-top: -30px;
         margin-bottom: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 45px;
     }
     #fifth h2{
+        margin-top: 15px;
         font-size: 24px;
     }
     #fifth li{
         font-size: 16px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
     #six{
-        flex-basis: 35%;
+        flex-basis: 50%;
         height: 200px;
         margin-top: -30px;
-        margin-left: 440px;
+        margin-left: 175px;
     }
     #six h2{
+        margin-top: 15px;
         font-size: 24px;
     }
     #six li{
         font-size: 16px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     
     #seven{
@@ -577,7 +600,7 @@ footer{
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
+@media only screen and (min-width: 990px)
 {
     /* body
     {
@@ -590,14 +613,13 @@ footer{
 
     #one{
         width: 100%;
-        margin-left: 275px;
+        margin-left: 55px;
         flex-basis: 45%;
-        height: 392px;
+        height: 25%;
     }
     
     #two{
-        flex-basis: 45%;
-        margin-left: 275px;
+        flex-basis: 40%;
         height: 40px;
     }
     #two h2{
@@ -618,8 +640,6 @@ footer{
         margin-top: 25px;
         margin-left: 100px;
         height: 215px;
-        background-color: #A4749F;
-        box-shadow: 10px 10px #000000;
         border-top-right-radius: 45px;
         border-top-left-radius: 45px;
         margin-bottom: 10px;
@@ -692,7 +712,7 @@ footer{
         width: 100%;
         margin-left: 350px;
         flex-basis: 45%;
-        height: 510px;
+        height: 25%;
     }
     
     #two{

@@ -735,12 +735,8 @@ footer{
     #four{
         flex-basis: 50%;
         margin-top: 25px;
-        margin-left: 100px;
+        margin-left: 10px;
         height: 235px;
-        background-color: #A4749F;
-        box-shadow: 10px 10px #000000;
-        border-top-right-radius: 45px;
-        border-top-left-radius: 45px;
         border-bottom-left-radius: 45px;
         margin-bottom: 10px;
     }
@@ -755,9 +751,9 @@ footer{
     
     #fifth{
         flex-basis: 30%;
-        margin-left: 600px;
+        margin-left: -21px;
         height: 170px;
-        margin-top: -40px;
+        margin-top: 90px;
         margin-bottom: 10px;
     }
     #fifth h2{
@@ -765,21 +761,23 @@ footer{
     }
     #fifth li{
         font-size: 19px;
-        margin-left: 70px;
+        margin-left: 40px;
     }
     
     #six{
         flex-basis: 35%;
         height: 210px;
-        margin-top: -30px;
-        margin-left: 250px;
+        margin-top: -10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 45px;
+        margin-left: 165px;
     }
     #six h2{
         font-size: 30px;
     }
     #six li{
         font-size: 19px;
-        margin-left: 70px;
+        margin-left: 40px;
     }
     
     #seven{

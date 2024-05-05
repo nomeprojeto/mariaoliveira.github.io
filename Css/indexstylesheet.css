@@ -224,16 +224,19 @@ body main div span{
 .ᓚᘏᗢᓚᘏᗢ
 {
     border-radius: 3px;
-    padding: 10px;
     background-color:#FDECFB;
     position: fixed;
-    top: 480px;
+    top: 615px;
     right: 30px;
+    height: 25px;
+    width: 20px;
     text-decoration: none;
 }
 .ᓚᘏᗢᓚᘏᗢ a
 {
     color:#8e2281;
+    margin-left: 5px;
+    margin-top: 5px;
     background-color: transparent;
     text-decoration: none;
 }
@@ -241,16 +244,19 @@ body main div span{
 .ᓚᘏᗢᓚᘏᗢ2
 {
     border-radius: 3px;
-    padding: 10px;
     background-color:#FDECFB;
     position: fixed;
-    top: 520px;
+    top: 660px;
     right: 30px;
+    height: 25px;
+    width: 20px;
     text-decoration: none;
 }
 .ᓚᘏᗢᓚᘏᗢ2 a
 {
     color:#8e2281;
+    margin-left: 5px;
+    margin-top: 5px;
     background-color: transparent;
     text-decoration: none;
 }
@@ -308,7 +314,7 @@ footer{
     }
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px)and(min-width:400px) 
+@media only screen and (max-width: 600px) and (min-width: 400px) 
 {
     body
     {
@@ -505,7 +511,7 @@ footer{
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 750px and up) */
 @media only screen and (min-width: 750px)
 {
     body header nav ul a{
@@ -599,7 +605,7 @@ footer{
         font-size: 16px;
     }
 }
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 990px and up) */
 @media only screen and (min-width: 990px)
 {
     /* body
@@ -715,7 +721,8 @@ footer{
     }
     
     #two{
-        flex-basis: 45%;
+        flex-basis: 40%;
+        margin-top: -100px;
         height: 40px;
     }
     #two h2{
@@ -725,10 +732,10 @@ footer{
     
     #three{
         font-size: 19px;
-        flex-basis: 93%;
-        margin-top: 35px;
+        flex-basis: 40%;
+        margin-top: -20%;
         height: 60px;
-        margin-left: 40px;
+        margin-left: 52%;
         margin-bottom: 25px;
     }
     

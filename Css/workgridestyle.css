@@ -87,6 +87,9 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
+    body header nav ul a{
+        font-size: 16px;
+    }
     body main figure{
         width: 98%;
     }
@@ -97,8 +100,11 @@ footer{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) 
+@media only screen and (max-width: 750px) and (min-width: 600px)  
 {
+    body header nav ul a{
+        font-size: 16px;
+    }
     body main figure 
   {
     width: 48%;
@@ -110,8 +116,11 @@ footer{
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 750px)
 {
+    body header nav ul a{
+        font-size: 16px;
+    }
     body main figure 
   {
     width: 31.7%;
@@ -121,15 +130,16 @@ footer{
     font-size: 22px;
     }
 }
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
+/* Large devices (laptops/desktops, 990px and up) */
+@media only screen and (min-width: 990px) 
 {
-    body main figure 
-    {
+    body header nav ul a{
+        font-size: 17px;
+    }
+    body main figure {
         width: 31.7%;
     }
-    body main figure figcaption
-    {
+    body main figure figcaption{
     font-size: 20px;
     }
 }
@@ -137,12 +147,13 @@ footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)
 {  
-    body main figure
-    {
+    body header nav ul a{
+        font-size: 20px;
+    }
+    body main figure{
         width: 23.4%;
     }
-    body main figure figcaption
-    {
+    body main figure figcaption{
     font-size: 18px;
     }
 }

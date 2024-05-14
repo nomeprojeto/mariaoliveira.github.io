@@ -61,12 +61,14 @@ main>div{
     height: 100px;
     width: 100%;
     display: flex;
+    flex-basis: 50%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
     background-color: #382e48;
+    margin-left: 5%;
 }
 
 main>div>img{
@@ -82,6 +84,15 @@ main>div>a{
     background: transparent;
 }
 
+main figcaption{
+    right: 100px;
+    margin-top: -48%;
+    margin-left: 50%;
+}
+
+#mail{
+    margin-top: 10%;
+}
 /* Extra smaller devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) 
 {

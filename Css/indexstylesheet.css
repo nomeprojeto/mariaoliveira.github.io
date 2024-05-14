@@ -223,48 +223,43 @@ body main div span{
 
 .ᓚᘏᗢᓚᘏᗢ
 {
-    border-radius: 3px;
-    background-color:#FDECFB;
     position: fixed;
-    top: 615px;
+    top: 600px;
     right: 30px;
-    height: 25px;
-    width: 20px;
-    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
 }
 .ᓚᘏᗢᓚᘏᗢ a
 {
-    color:#8e2281;
-    margin-left: 5px;
-    margin-top: 5px;
     background-color: transparent;
-    text-decoration: none;
+}
+.ᓚᘏᗢᓚᘏᗢ a img
+{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
 }
 
 .ᓚᘏᗢᓚᘏᗢ2
 {
-    border-radius: 3px;
-    background-color:#FDECFB;
     position: fixed;
-    top: 660px;
+    top: 630px;
     right: 30px;
-    height: 25px;
-    width: 20px;
-    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
 }
 .ᓚᘏᗢᓚᘏᗢ2 a
 {
-    color:#8e2281;
-    margin-left: 5px;
-    margin-top: 5px;
     background-color: transparent;
-    text-decoration: none;
 }
-
-footer{
-    font-size: 16px;
+.ᓚᘏᗢᓚᘏᗢ2 a img
+{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
 }
-
 
 /* Extra smaller devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) and (min-width:325px)
@@ -320,10 +315,6 @@ footer{
     {
         background-color: #3ee0c5;
     }
-    body header nav ul a{
-        font-size: 16px;
-    }
-
     #one{
         width: 100%;
         margin-left: 125px;
@@ -404,23 +395,11 @@ footer{
         font-size: 20px;
         margin-top: 0px;
     }
-
-    footer{
-        font-size: 16px;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 750px) and (min-width: 600px) 
 {
-    /* body
-    {
-        background-color:#FDECFB;
-    } */
-
-    body header nav ul a{
-        font-size: 16px;
-    }
     #one{
         margin-left: 23px;
         flex-basis: 45%;
@@ -506,18 +485,11 @@ footer{
         margin-top: 0px;
     }
 
-    footer{
-        font-size: 16px;
-    }
 }
 
 /* Medium devices (landscape tablets, 750px and up) */
 @media only screen and (min-width: 750px)
 {
-    body header nav ul a{
-        font-size: 16px;
-    }
-
     #one{
         width: 100%;
         margin-left: 25px;
@@ -600,23 +572,10 @@ footer{
         font-size: 22px;
         margin-top: 0px;
     }
-
-    footer{
-        font-size: 16px;
-    }
 }
 /* Large devices (laptops/desktops, 990px and up) */
 @media only screen and (min-width: 990px)
 {
-    /* body
-    {
-        background-color:#941385;
-    } */
-
-    body header nav ul a{
-        font-size: 17px;
-    }
-
     #one{
         width: 100%;
         margin-left: 55px;
@@ -695,24 +654,11 @@ footer{
         font-size: 22px;
         margin-top: 0px;
     }
-
-    footer{
-        font-size: 17px;
-    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)
 {  
-    /* body
-    {
-        background-color:#2d9413;
-    } */
-
-    body header nav ul a{
-        font-size: 20px;
-    }
-
     #one{
         width: 100%;
         margin-left: 40px;
@@ -742,7 +688,7 @@ footer{
     #four{
         flex-basis: 50%;
         margin-top: 25px;
-        margin-left: 10px;
+        margin-left: 8%;
         height: 235px;
         border-bottom-left-radius: 45px;
         margin-bottom: 10px;
@@ -758,7 +704,7 @@ footer{
     
     #fifth{
         flex-basis: 30%;
-        margin-left: -21px;
+        margin-left: -2%;
         height: 170px;
         margin-top: 90px;
         margin-bottom: 10px;
@@ -777,7 +723,7 @@ footer{
         margin-top: -10px;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 45px;
-        margin-left: 165px;
+        margin-left: 23%;
     }
     #six h2{
         font-size: 30px;
@@ -801,9 +747,5 @@ footer{
         text-decoration: none;
         color: #3ee0c5;
         background-color: transparent;
-    }
-
-    footer{
-        font-size: 19px;
     }
 }

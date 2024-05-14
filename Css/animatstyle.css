@@ -43,14 +43,16 @@ body header nav a{
 }
 
 body main{
+    text-align: center;
     margin-left: 0%;
     background-color: transparent;
 }
 
 body main iframe{
-    float: left;
+    width: 60%;
+    height: 579px;
 }
 
 body footer{
-    margin-top: 5%;
+    margin-top: 2%;
 }

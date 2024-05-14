@@ -51,12 +51,16 @@ body header nav a{
 
 body main{
     align-content: right;
+    text-align: center;
     margin-left: 0%;
     background-color: transparent;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+body main iframe{
+    width: 60%;
+    height: 579px;
+    margin: 2%;
+}
 body main table{
     background-color: rgb(49, 37, 67);
     margin-right: auto;

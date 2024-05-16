@@ -46,8 +46,8 @@ body header nav a{
 
 body main{
     padding: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -85,14 +85,13 @@ main>div>a{
 }
 
 main figcaption{
-    right: 100px;
-    margin-top: -48%;
-    margin-left: 50%;
+    right: 10px;
 }
 
-#mail{
+/* #mail{
     margin-top: 10%;
-}
+} */
+
 /* Extra smaller devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) 
 {

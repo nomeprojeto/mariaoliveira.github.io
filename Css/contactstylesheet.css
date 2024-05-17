@@ -57,7 +57,7 @@ body main{
     gap: 2%;
 }
 
-main>div{
+main>div>div{
     height: 100px;
     width: 100%;
     display: flex;
@@ -71,13 +71,13 @@ main>div{
     margin-left: 5%;
 }
 
-main>div>img{
+main>div>div>img{
     color: #3ee0c5;
     margin-right: 10px;
     background: transparent;
     width: 39px;
 }
-main>div>a{
+main>div>div>a{
     font-size: 25px;
     text-decoration: none;
     color: #3ee0c5;
@@ -86,7 +86,7 @@ main>div>a{
 
 main figcaption{
     right: 10px;
-    clear: left;
+    float: right;
 }
 
 /* #mail{

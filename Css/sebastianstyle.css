@@ -17,7 +17,8 @@ body main div{
 }
 
 body main div img{
-    width: 100%;
+    width: 50%;
+    float: left;
 }
 
 body main div h2{
@@ -39,6 +40,9 @@ body main div span{
     background-color: #382e48;
 }
 
+body>main>div{
+    margin-top: 5%;
+}
 #one{
     width: 100%;
     background-color: transparent;

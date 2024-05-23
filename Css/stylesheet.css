@@ -81,7 +81,16 @@ body main h2{
     color: #FDECFB;
     font-family: "Bodoni Moda", serif;
     font-weight: 400;
-    font-style: 2px;
+    background-color: #382e48;
+    margin-bottom: 10px;
+}
+
+body main h3{
+    text-decoration: none;
+    text-align: left;
+    color: #FDECFB;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
     background-color: #382e48;
     margin-bottom: 10px;
 }

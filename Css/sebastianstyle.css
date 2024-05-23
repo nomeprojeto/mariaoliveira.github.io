@@ -18,13 +18,20 @@ body main div{
 
 body main div img{
     width: 50%;
-    float: left;
+}
+
+body main div figcaption{
+    background-color: #382e48;
 }
 
 body main div h2{
     width: 100%;
-    background-color: #382e48;
     font-size: 28px;
+}
+
+body main div h3{
+    width: 100%;
+    font-size: 20px;
 }
 
 body main div p{
@@ -43,18 +50,16 @@ body main div span{
 body>main>div{
     margin-top: 5%;
 }
+
 #one{
-    width: 100%;
     background-color: transparent;
-    margin-left: 25px;
     flex-basis: 100%;
     height: 230px;
-    border-radius: 45px;
 }
 #one img{
-    width: 100%;
-    background-color: #382e48;
+    width: 50%;
 }
+
 #two{
     margin-top: 35px;
     flex-basis: 100%;
@@ -187,7 +192,6 @@ body>main>div{
     }
     #one{
         width: 100%;
-        margin-left: 125px;
         flex-basis: 100%;
         height: 25%;
     }
@@ -271,7 +275,6 @@ body>main>div{
 @media only screen and (max-width: 750px) and (min-width: 600px) 
 {
     #one{
-        margin-left: 23px;
         flex-basis: 100%;
         height: 25%;
     }
@@ -362,7 +365,6 @@ body>main>div{
 {
     #one{
         width: 100%;
-        margin-left: 25px;
         flex-basis: 100%;
         height: 25%;
     }
@@ -448,7 +450,6 @@ body>main>div{
 {
     #one{
         width: 100%;
-        margin-left: 55px;
         flex-basis: 100%;
         height: 25%;
     }
@@ -531,7 +532,6 @@ body>main>div{
 {  
     #one{
         width: 100%;
-        margin-left: 40px;
         flex-basis: 100%;
         height: 25%;
     }

@@ -131,7 +131,8 @@ body main table tr td{
 }
 
 body main table tr td img{
-    width: 100%;
+    width: auto;
+    height: auto;
     align-items: center;
 }
 

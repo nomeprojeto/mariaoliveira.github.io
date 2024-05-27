@@ -50,9 +50,80 @@ body main{
 
 body main iframe{
     width: 60%;
-    height: 579px;
+    height: 509px;
 }
 
 body footer{
     margin-top: 2%;
+}
+
+#Texto1{
+    margin-top: 35px;
+    flex-basis: 45%;
+    height: 40px;
+    align-self: center;
+    background-color: transparent;
+}
+#Texto1 p{
+    text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-width: 400px) 
+{
+    #Texto1 h2{
+        font-size: 20px;
+    }
+    iframe{
+        width: 60%;
+        height: 199px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 750px) and (min-width: 600px) 
+{
+    #Texto1 h2{
+        font-size: 22px;
+    }
+    iframe{
+        width: 60%;
+        height: 233px;
+    }
+}
+
+/* Medium devices (landscape tablets, 750px and up) */
+@media only screen and (min-width: 750px)
+{
+    #Texto1 h2{
+        font-size: 24px;
+    }
+    iframe{
+        width: 60%;
+        height: 233px;
+    }
+}
+/* Large devices (laptops/desktops, 990px and up) */
+@media only screen and (min-width: 990px)
+{
+    #Texto1 h2{
+        font-size: 26px;
+    }
+    iframe{
+        width: 60%;
+        height: 379px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{  
+    #Texto1 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    iframe{
+        width: 60%;
+        height: 509px;
+    }
 }

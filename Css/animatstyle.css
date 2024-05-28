@@ -48,7 +48,7 @@ body main{
     background-color: transparent;
 }
 
-body main iframe{
+iframe{
     width: 60%;
     height: 509px;
 }
@@ -71,7 +71,7 @@ body footer{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 400px) 
 {
-    #Texto1 h2{
+    #Texto1 p{
         font-size: 20px;
     }
     iframe{
@@ -83,7 +83,7 @@ body footer{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 750px) and (min-width: 600px) 
 {
-    #Texto1 h2{
+    #Texto1 p{
         font-size: 22px;
     }
     iframe{
@@ -95,7 +95,7 @@ body footer{
 /* Medium devices (landscape tablets, 750px and up) */
 @media only screen and (min-width: 750px)
 {
-    #Texto1 h2{
+    #Texto1 p{
         font-size: 24px;
     }
     iframe{
@@ -106,8 +106,8 @@ body footer{
 /* Large devices (laptops/desktops, 990px and up) */
 @media only screen and (min-width: 990px)
 {
-    #Texto1 h2{
-        font-size: 26px;
+    #Texto1 p{
+        font-size: 24px;
     }
     iframe{
         width: 60%;
@@ -118,8 +118,8 @@ body footer{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)
 {  
-    #Texto1 h2{
-        font-size: 30px;
+    #Texto1 p{
+        font-size: 24px;
         text-align: center;
     }
     iframe{

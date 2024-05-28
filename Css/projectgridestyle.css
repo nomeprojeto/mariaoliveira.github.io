@@ -131,8 +131,10 @@ body main table tr td{
 }
 
 body main table tr td img{
-    width: auto;
-    height: auto;
+    max-width: 100%;
+    max-width: 100%;
+    min-width: 20%;
+    min-height: 20%;
     align-items: center;
 }
 

@@ -14,10 +14,6 @@ body main div{
     background-color: #382e48;
 }
 
-body main div img{
-    width: 50%;
-}
-
 body main div figcaption{
     background-color: #382e48;
 }
@@ -29,12 +25,13 @@ body main div h2{
 
 body main div h3{
     width: 100%;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 body main div p{
     width: 100%;
     background-color: #382e48;
+    font-size: 18px;
 }
 
 body main div span{
@@ -94,15 +91,15 @@ iframe{
 .ᓚᘏᗢᓚᘏᗢ
 {
     position: fixed;
-    top: 600px;
-    right: 30px;
+    top: 93.8%;
+    right: 6%;
     height: 30px;
     width: 30px;
     background-color: transparent;
 }
 .ᓚᘏᗢᓚᘏᗢ a
 {
-    background-color: transparent;
+    background-color: red;
 }
 .ᓚᘏᗢᓚᘏᗢ a img
 {
@@ -114,15 +111,15 @@ iframe{
 .ᓚᘏᗢᓚᘏᗢ2
 {
     position: fixed;
-    top: 630px;
-    right: 30px;
+    top: 89%;
+    right: 6%;
     height: 30px;
     width: 30px;
     background-color: transparent;
 }
 .ᓚᘏᗢᓚᘏᗢ2 a
 {
-    background-color: transparent;
+    background-color: red;
 }
 .ᓚᘏᗢᓚᘏᗢ2 a img
 {
@@ -238,6 +235,6 @@ iframe{
     }
     iframe{
         width: 60%;
-        height: 404px;
+        height: 504px;
     }
 }

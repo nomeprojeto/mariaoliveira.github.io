@@ -1,18 +1,3 @@
-*{
-    /* outline: 1px dashed rgb(255, 255, 255); */
-    outline-offset: -1px;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-body{
-    margin: 10px;
-    padding: 10px;
-}
-
 body main{
     padding: 10px;
     margin-left: 5%;
@@ -143,7 +128,7 @@ body main div span{
 #six{
     flex-basis: 55%;
     height: 175px;
-    background-color:#382e48;
+    background-color:#A4749F;
     box-shadow: 10px 10px #000000;
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
@@ -158,13 +143,13 @@ body main div span{
     font-size: 20px;
     text-align: center;
     font-weight:400;
-    color: #A4749F;
+    color: #382e48;
     background-color: transparent;
 }
 #six li{
     font-size: 16px;
     background-color: transparent;
-    color:#A4749F;
+    color:#382e48;
     margin-left: 30px;
     margin-right: 15px;
     margin-bottom: 5px;
@@ -189,48 +174,8 @@ body main div span{
     background-color: transparent;
 }
 
-.ᓚᘏᗢᓚᘏᗢ
-{
-    position: fixed;
-    top: 600px;
-    right: 30px;
-    height: 30px;
-    width: 30px;
-    background-color: transparent;
-}
-.ᓚᘏᗢᓚᘏᗢ a
-{
-    background-color: transparent;
-}
-.ᓚᘏᗢᓚᘏᗢ a img
-{
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-}
-
-.ᓚᘏᗢᓚᘏᗢ2
-{
-    position: fixed;
-    top: 630px;
-    right: 30px;
-    height: 30px;
-    width: 30px;
-    background-color: transparent;
-}
-.ᓚᘏᗢᓚᘏᗢ2 a
-{
-    background-color: transparent;
-}
-.ᓚᘏᗢᓚᘏᗢ2 a img
-{
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-}
-
 /* Extra smaller devices (phones, 400px and down) */
-@media only screen and (max-width: 400px) and (min-width:325px)
+@media only screen and (max-width: 400px) and (min-width:225px)
 {
     body
     {
@@ -244,31 +189,36 @@ body main div span{
     #two
     {
         flex-basis: 100%;
-        margin-top: 0px;
-        margin-left: 10px;
+        margin-top: 9%;
     }
+    #two h2{
+        font-size: 24px;
+    }
+    
     #three
     {
-        margin-bottom: 45px;
+        margin-bottom: 20%;
     }
     #four
     {
-        flex-basis: 70%;
+        flex-basis: 100%;
+        height: 200px;
     }
     #four li
     {
         margin-left: 25px;
     };
-    #fifth
-    {
-        margin-top: -10px;
-        height: 165px;
+    #fifth{
         flex-basis: 60%;
+        margin-left: 0px;
+        height: 130px;
+        margin-top: 10px;
     }
     #six
     {
+        margin-left: 0px;
         margin-top: 30px;
-        flex-basis: 70%;
+        flex-basis: 100%;
         height: 175px;
     }
     #seven
@@ -277,26 +227,27 @@ body main div span{
     }
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) and (min-width: 400px) 
+@media only screen and (max-width: 599px) and (min-width: 400px) 
 {
-    /* body
+    body
     {
         background-color: #3ee0c5;
-    } */
+    }
     #one{
         width: 100%;
-        margin-left: 125px;
-        flex-basis: 45%;
+        margin-left: 14%;
+        flex-basis: 70%;
         height: 25%;
     }
     
     #two{
         flex-basis: 45%;
-        margin-left: 125px;
+        margin-left: 28%;
+        margin-top: -5%;
         height: 58px;
     }
     #two h2{
-        font-size: 20px;
+        font-size: 24px;
     }
     
     #three{
@@ -309,9 +260,9 @@ body main div span{
     }
     
     #four{
-        flex-basis: 50%;
+        flex-basis: 90%;
         margin-top: 25px;
-        margin-left: 35px;
+        margin-right: 15px;
         height: 205px;
         margin-bottom: 10px;
     }
@@ -324,35 +275,31 @@ body main div span{
     }
     
     #fifth{
-        flex-basis: 50%;
-        margin-left: 200px;
-        height: 145px;
-        margin-top: -30px;
-        box-shadow: 10px 10px #000000;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 45px;
-        margin-bottom: 10px;
+        flex-basis: 60%;
+        margin-left: 133px;
+        height: 130px;
+        margin-top: 0px;
     }
     #fifth h2{
         font-size: 20px;
     }
     #fifth li{
         font-size: 16px;
-        margin-left: 30px;
+        margin-left: 28px;
     }
     
     #six{
-        flex-basis: 55%;
+        flex-basis: 70%;
         height: 180px;
-        margin-top: -30px;
-        margin-left: 35px;
+        margin-top: 0px;
+        margin-left: 94px;
     }
     #six h2{
         font-size: 20px;
     }
     #six li{
         font-size: 16px;
-        margin-left: 20px;
+        margin-left: 25px;
     }
     
     #seven{

@@ -66,13 +66,14 @@ body footer{
 }
 #Texto1 p{
     text-align: center;
+    font-size: 18px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 400px) 
 {
     #Texto1 p{
-        font-size: 20px;
+        font-size: 18px;
     }
     iframe{
         width: 60%;
@@ -84,7 +85,7 @@ body footer{
 @media only screen and (max-width: 750px) and (min-width: 600px) 
 {
     #Texto1 p{
-        font-size: 22px;
+        font-size: 18px;
     }
     iframe{
         width: 60%;
@@ -96,7 +97,7 @@ body footer{
 @media only screen and (min-width: 750px)
 {
     #Texto1 p{
-        font-size: 24px;
+        font-size: 18px;
     }
     iframe{
         width: 60%;
@@ -107,7 +108,7 @@ body footer{
 @media only screen and (min-width: 990px)
 {
     #Texto1 p{
-        font-size: 24px;
+        font-size: 20px;
     }
     iframe{
         width: 60%;
@@ -119,7 +120,7 @@ body footer{
 @media only screen and (min-width: 1200px)
 {  
     #Texto1 p{
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
     }
     iframe{

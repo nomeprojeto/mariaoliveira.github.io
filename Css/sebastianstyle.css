@@ -91,7 +91,7 @@ iframe{
 .ᓚᘏᗢᓚᘏᗢ
 {
     position: fixed;
-    top: 93.8%;
+    top: 89%;
     right: 6%;
     height: 30px;
     width: 30px;
@@ -111,7 +111,7 @@ iframe{
 .ᓚᘏᗢᓚᘏᗢ2
 {
     position: fixed;
-    top: 89%;
+    top: 93.8%;
     right: 6%;
     height: 30px;
     width: 30px;
@@ -146,9 +146,9 @@ iframe{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 400px) 
 {
-    body{
+    /* body{
         background-color: #3ee0c5;
-    }
+    } */
     #sketch1{
         width: 100%;
         flex-basis: 100%;

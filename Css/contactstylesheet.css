@@ -27,14 +27,14 @@ main>div>div{
     flex-wrap: wrap;
     align-content: center;
     background-color: #382e48;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 main>div>div>img{
     color: #3ee0c5;
     margin-right: 10px;
     background: transparent;
-    width: 39px;
+    width: 10%;
 }
 main>div>div>a{
     font-size: 25px;
@@ -43,17 +43,29 @@ main>div>div>a{
     background: transparent;
 }
 
-main figcaption{
+figcaption{
     right: 10px;
     float: right;
+    background-color: transparent;
+}
+figcaption img{
+    width: 100%;
+    background-color: transparent;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px) and (min-width: 400px) 
 {
     body
     {
         background-color: #3ee0c5;
+    }
+    
+    main>div>div>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
     }
 }
 
@@ -64,6 +76,13 @@ main figcaption{
     {
         background-color:#FDECFB;
     }
+    
+    main>div>div>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -73,6 +92,13 @@ main figcaption{
     {
         background-color:bisque;
     }
+    
+    main>div>div>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) 
@@ -80,6 +106,13 @@ main figcaption{
     body
     {
         background-color:#941385;
+    }
+    
+    main>div>div>a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
     }
 }
 
@@ -89,5 +122,12 @@ main figcaption{
     body
     {
         background-color:#776775;
+    }
+
+    main>div>div>a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #3ee0c5;
+    background: transparent;
     }
 }

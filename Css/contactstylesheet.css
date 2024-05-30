@@ -40,7 +40,7 @@ main>div>div{
     color: #3ee0c5;
     margin-right: 10px;
     background: transparent;
-    width: 10%;
+    width: 20%;
 }
 #mail a{
     font-size: 25px;
@@ -59,7 +59,7 @@ main>div>div{
     color: #3ee0c5;
     margin-right: 10px;
     background: transparent;
-    width: 10%;
+    width: 20%;
 }
 #youtube a{
     font-size: 25px;
@@ -78,7 +78,7 @@ main>div>div{
     color: #3ee0c5;
     margin-right: 10px;
     background: transparent;
-    width: 10%;
+    width: 20%;
 }
 #behance a{
     font-size: 25px;
@@ -97,7 +97,7 @@ main>div>div{
     color: #3ee0c5;
     margin-right: 10px;
     background: transparent;
-    width: 10%;
+    width: 20%;
 }
 #instagram a{
     font-size: 25px;
@@ -119,17 +119,77 @@ figcaption img{
 footer p{
     margin-top: 2%;
 }
-/* Para aparelhos com ecrãs menores que 600px  */
-@media only screen and (max-width: 600px)
+
+/* Para aparelhos com ecrãs maiores que 225px e menores que 400px */
+@media only screen and (max-width: 400px) and (min-width:225px)
 {
+    #mail img{
+        background: transparent;
+        width: 10%;
+    }
     #mail a{
         font-size: 20px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 10%;
     }
     #youtube a{
         font-size: 20px;
     }
+
+    #behance img{
+        background: transparent;
+        width: 10%;
+    }
     #behance a{
         font-size: 20px;
+    }
+    
+    #instagram{
+        margin-left: 50%;
+        height: 80px;
+    }
+    #instagram img{
+        background: transparent;
+        width: 12%;
+    }
+    #instagram a{
+        font-size: 20px;
+    }
+}
+
+/* Para aparelhos com ecrãs menores que 600px e maiores que 400px */
+@media only screen and (max-width: 600px) and (min: 400px)
+{
+    #mail img{
+        background: transparent;
+        width: 20%;
+    }
+    #mail a{
+        font-size: 20px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 20%;
+    }
+    #youtube a{
+        font-size: 20px;
+    }
+
+    #behance img{
+        background: transparent;
+        width: 20%;
+    }
+    #behance a{
+        font-size: 20px;
+    }
+    
+    #instagram img{
+        background: transparent;
+        width: 20%;
     }
     #instagram a{
         font-size: 20px;
@@ -139,14 +199,33 @@ footer p{
 /* Para aparelhos com ecrãs maiores que 600px */
 @media only screen and (min-width: 600px) 
 {
+    #mail img{
+        background: transparent;
+        width: 20%;
+    }
     #mail a{
         font-size: 20px;
+    }
+
+    #youtube img{
+        background: transparent;
+        width: 20%;
     }
     #youtube a{
         font-size: 20px;
     }
+
+    #behance img{
+        background: transparent;
+        width: 20%;
+    }
     #behance a{
         font-size: 20px;
+    }
+
+    #instagram img{
+        background: transparent;
+        width: 20%;
     }
     #instagram a{
         font-size: 20px;

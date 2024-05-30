@@ -161,6 +161,7 @@ iframe{
         height: 145px;
     }
 }
+
 /* Para aparelhos com ecrãs maiores que 400px e menores que 600px */
 @media only screen and (max-width: 600px) and (min-width: 400px) 
 {

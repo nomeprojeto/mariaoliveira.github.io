@@ -90,7 +90,11 @@ iframe{
     width: 60%;
     height: 204px;
 }
-.ᓚᘏᗢᓚᘏᗢ
+
+/* Este codigo está em construção futura
+(não funciona perfeitamente ainda) */
+
+/* .ᓚᘏᗢᓚᘏᗢ
 {
     position: fixed;
     top: 89%;
@@ -128,7 +132,7 @@ iframe{
     height: 100%;
     width: 100%;
     background-color: transparent;
-}
+} */
 
 /* Extra smaller devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) and (min-width:325px)

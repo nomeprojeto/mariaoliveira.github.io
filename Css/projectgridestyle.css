@@ -1,67 +1,11 @@
-*{
-    /* outline: 1px dashed rgb(255, 255, 255); */
-    outline-offset: -1px;
-    margin: 0;
-    padding: 0;
-    background-color:#000000;
-}
-
-body{
-    background-color: #b594e94f;
-    margin: 10px;
-    padding: 10px;
-}
-
-body header{
-    align-self: center;
-    text-decoration: none;
-    border-bottom-style: solid;
-    border-width: 6px;
-    border-color: #A4749F;
-}
-
-body header nav{
-    background-color: #b594e94f;
-    width: 100%;
-    height: 30%;
-    margin: auto;
-    align-content: center;
-    text-align: center;
-}
-body header nav ul{
-    background-color: transparent;
-    list-style: none;
-    display: inline-block;
-    padding:10px;
- }
-
-body header nav ul li{
-    background-color: transparent;
-     float: left;
-     margin: 10px;
- }
-
-body header nav a{
-    background-color: transparent;
-    text-decoration: none;
-    font-weight: bold;
-    color:#FDECFB;
-    text-shadow: 0 0 2px #000000;
-}
-
-body main{
+main{
     align-content: right;
     text-align: center;
     margin-left: 0%;
     background-color: transparent;
 }
 
-body main iframe{
-    width: 60%;
-    height: 579px;
-    margin: 2%;
-}
-body main table{
+table{
     background-color: rgb(49, 37, 67);
     margin-right: auto;
     margin-left: auto;
@@ -72,72 +16,64 @@ body main table{
     border-spacing: 10px;
 }
 
-body main table tr{
-    background-color: rgba(49,37,67, 0.1);
-}
-
-body main table tr th{
+table tr td{
     background-color: rgba(49,37,67);
     width: 50%;
     height: auto;
 }
 
-body main table tr th h1{
-    background-color: transparent;
-    text-decoration: none;
-    text-align: left;
-    color: #FDECFB;
-    font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+table tr td img{
+    width: 100%;
 }
 
-body main table tr th h2{
-    background-color: transparent;
-    text-decoration: none;
-    text-align: left;
-    color: #FDECFB;
-    font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: italic;
+iframe{
+    width: 60%;
+    height: 204px;
 }
 
-body main table tr th p{
-    background-color: transparent;
-    text-decoration: none;
-    text-align: left;
-    color: #FDECFB;
-    font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-orientation: sideways;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-width: 400px) 
+{
+    iframe{
+        width: 100%;
+        height: 242px;
+    }
 }
 
-body main table tr th p span{
-    background-color: transparent;
-    text-decoration: none;
-    text-align: left;
-    color: #FDECFB;
-    font-family: "Puritan", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    white-space: nowrap;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 750px) and (min-width: 600px) 
+{
+    iframe{
+        width: 100%;
+        height: 360px;
+    }
 }
 
-body main table tr td{
-    background-color: rgba(49,37,67);
-    width: 50%;
-    height: auto;
+/* Medium devices (landscape tablets, 750px and up) */
+@media only screen and (min-width: 750px)
+{
+    iframe{
+        width: 60%;
+        height: 240px;
+    }
+}
+/* Large devices (laptops/desktops, 990px and up) */
+@media only screen and (min-width: 990px)
+{
+    iframe{
+        width: 60%;
+        height: 404px;
+    }
 }
 
-body main table tr td img{
-    max-width: 100%;
-    max-width: 100%;
-    min-width: 20%;
-    min-height: 20%;
-    align-items: center;
-}
-
-body footer{
-    margin-top: 5%;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+    table tr td img{
+        width: 100%;
+    }
+    iframe{
+        width: 60%;
+        height: 504px;
+    }
 }

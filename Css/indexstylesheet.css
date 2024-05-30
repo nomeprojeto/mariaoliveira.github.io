@@ -65,7 +65,7 @@ body main div span{
     margin-bottom: 25px;
 }
 
-#four{
+#Compballon{
     flex-basis: 60%;
     margin-top: 25px;
     height: 225px;
@@ -76,26 +76,26 @@ body main div span{
     border-bottom-left-radius: 45px;
     margin-bottom: 10px;
 }
-#four h2{
+#Compballon h2{
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 20px;
     text-align: center;
     font-weight:400;
-    color: #3ee0c5;
+    color: #382e48;
     background-color: transparent;
 }
-#four li{
+#Compballon li{
     font-size: 16px;
     background-color: #A4749F;
-    color:#FDECFB;
+    color:#382e48;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 5px;
     text-align: left;
 }
 
-#fifth{
+#HobbysBallon{
     flex-basis: 40%;
     height: 135px;
     background-color:#FDECFB;
@@ -106,7 +106,7 @@ body main div span{
     margin-top: -50px;
     margin-bottom: 10px;
 }
-#fifth h2{
+#HobbysBallon h2{
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 20px;
@@ -115,7 +115,7 @@ body main div span{
     color: #A4749F;
     background-color: transparent;
 }
-#fifth li{
+#HobbysBallon li{
     font-size: 16px;
     background-color: transparent;
     color:#A4749F;
@@ -125,10 +125,10 @@ body main div span{
     text-align: left;
 }
 
-#six{
+#WhatIdoBallon{
     flex-basis: 55%;
     height: 175px;
-    background-color:#A4749F;
+    background-color:#b98fb5;
     box-shadow: 10px 10px #000000;
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
@@ -137,7 +137,7 @@ body main div span{
     margin-left: -50px;
     margin-bottom: 10px;
 }
-#six h2{
+#WhatIdoBallon h2{
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 20px;
@@ -146,7 +146,7 @@ body main div span{
     color: #382e48;
     background-color: transparent;
 }
-#six li{
+#WhatIdoBallon li{
     font-size: 16px;
     background-color: transparent;
     color:#382e48;
@@ -199,22 +199,22 @@ body main div span{
     {
         margin-bottom: 20%;
     }
-    #four
+    #Compballon
     {
         flex-basis: 100%;
         height: 200px;
     }
-    #four li
+    #Compballon li
     {
         margin-left: 25px;
     };
-    #fifth{
+    #HobbysBallon{
         flex-basis: 60%;
         margin-left: 0px;
         height: 130px;
         margin-top: 10px;
     }
-    #six
+    #WhatIdoBallon
     {
         margin-left: 0px;
         margin-top: 30px;
@@ -259,45 +259,45 @@ body main div span{
         margin-bottom: 25px;
     }
     
-    #four{
+    #Compballon{
         flex-basis: 90%;
         margin-top: 25px;
         margin-right: 15px;
         height: 205px;
         margin-bottom: 10px;
     }
-    #four h2{
+    #Compballon h2{
         font-size: 20px;
     }
-    #four li{
+    #Compballon li{
         font-size: 16px;
         margin-left: 20px;
     }
     
-    #fifth{
+    #HobbysBallon{
         flex-basis: 60%;
         margin-left: 133px;
         height: 130px;
         margin-top: 0px;
     }
-    #fifth h2{
+    #HobbysBallon h2{
         font-size: 20px;
     }
-    #fifth li{
+    #HobbysBallon li{
         font-size: 16px;
         margin-left: 28px;
     }
     
-    #six{
+    #WhatIdoBallon{
         flex-basis: 70%;
         height: 180px;
         margin-top: 0px;
         margin-left: 94px;
     }
-    #six h2{
+    #WhatIdoBallon h2{
         font-size: 20px;
     }
-    #six li{
+    #WhatIdoBallon li{
         font-size: 16px;
         margin-left: 25px;
     }
@@ -339,24 +339,24 @@ body main div span{
         margin-bottom: 25px;
     }
     
-    #four{
+    #Compballon{
         flex-basis: 73%;
         margin-top: 25px;
         margin-left: 23px;
         height: 215px;
         margin-bottom: 10px;
     }
-    #four h2{
+    #Compballon h2{
         margin-top: 15px;
         font-size: 22px;
     }
-    #four li{
+    #Compballon li{
         font-size: 16px;
         margin-left: 20px;
         margin-right: 15px;
     }
     
-    #fifth{
+    #HobbysBallon{
         flex-basis: 40%;
         margin-left: 300px;
         height: 170px;
@@ -366,27 +366,27 @@ body main div span{
         border-bottom-right-radius: 45px;
         margin-bottom: 10px;
     }
-    #fifth h2{
+    #HobbysBallon h2{
         margin-top: 15px;
         font-size: 22px;
     }
-    #fifth li{
+    #HobbysBallon li{
         font-size: 16px;
         margin-left: 20px;
     }
     
-    #six{
+    #WhatIdoBallon{
         margin-top: 15px;
         flex-basis: 55%;
         height: 180px;
         margin-top: -30px;
         margin-left: 115px;
     }
-    #six h2{
+    #WhatIdoBallon h2{
         margin-top: 15px;
         font-size: 22px;
     }
-    #six li{
+    #WhatIdoBallon li{
         font-size: 16px;
         margin-left: 20px;
     }
@@ -429,24 +429,24 @@ body main div span{
         margin-bottom: 25px;
     }
     
-    #four{
+    #Compballon{
         flex-basis: 70%;
         margin-top: 25px;
         margin-left: 25px;
         height: 200px;
         margin-bottom: 10px;
     }
-    #four h2{
+    #Compballon h2{
         margin-top: 15px;
         font-size: 24px;
     }
-    #four li{
+    #Compballon li{
         font-size: 16px;
         margin-left: 27px;
         margin-right: 15px;
     }
     
-    #fifth{
+    #HobbysBallon{
         flex-basis: 35%;
         margin-left: 400px;
         height: 160px;
@@ -455,26 +455,26 @@ body main div span{
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 45px;
     }
-    #fifth h2{
+    #HobbysBallon h2{
         margin-top: 15px;
         font-size: 24px;
     }
-    #fifth li{
+    #HobbysBallon li{
         font-size: 16px;
         margin-left: 20px;
     }
     
-    #six{
+    #WhatIdoBallon{
         flex-basis: 50%;
         height: 200px;
         margin-top: -30px;
         margin-left: 175px;
     }
-    #six h2{
+    #WhatIdoBallon h2{
         margin-top: 15px;
         font-size: 24px;
     }
-    #six li{
+    #WhatIdoBallon li{
         font-size: 16px;
         margin-left: 20px;
     }
@@ -515,7 +515,7 @@ body main div span{
         margin-bottom: 25px;
     }
     
-    #four{
+    #Compballon{
         flex-basis: 50%;
         margin-top: 25px;
         margin-left: 100px;
@@ -524,39 +524,39 @@ body main div span{
         border-top-left-radius: 45px;
         margin-bottom: 10px;
     }
-    #four h2{
+    #Compballon h2{
         font-size: 26px;
     }
-    #four li{
+    #Compballon li{
         font-size: 17px;
         margin-left: 20px;
     }
     
-    #fifth{
+    #HobbysBallon{
         flex-basis: 30%;
         margin-left: 400px;
         height: 160px;
         margin-top: -40px;
         margin-bottom: 10px;
     }
-    #fifth h2{
+    #HobbysBallon h2{
         font-size: 26px;
     }
-    #fifth li{
+    #HobbysBallon li{
         font-size: 17px;
         margin-left: 22px;
     }
     
-    #six{
+    #WhatIdoBallon{
         flex-basis: 35%;
         height: 200px;
         margin-top: -30px;
         margin-left: 225px;
     }
-    #six h2{
+    #WhatIdoBallon h2{
         font-size: 26px;
     }
-    #six li{
+    #WhatIdoBallon li{
         font-size: 17px;
         margin-left: 20px;
     }
@@ -600,7 +600,7 @@ body main div span{
         margin-bottom: 25px;
     }
     
-    #four{
+    #Compballon{
         flex-basis: 50%;
         margin-top: 25px;
         margin-left: 8%;
@@ -608,31 +608,31 @@ body main div span{
         border-bottom-left-radius: 45px;
         margin-bottom: 10px;
     }
-    #four h2{
+    #Compballon h2{
         font-size: 30px;
     }
-    #four li{
+    #Compballon li{
         font-size: 19px;
         margin-left: 50px;
         margin-right: 15px;
     }
     
-    #fifth{
+    #HobbysBallon{
         flex-basis: 30%;
         margin-left: -2%;
         height: 170px;
         margin-top: 90px;
         margin-bottom: 10px;
     }
-    #fifth h2{
+    #HobbysBallon h2{
         font-size: 30px;
     }
-    #fifth li{
+    #HobbysBallon li{
         font-size: 19px;
         margin-left: 40px;
     }
     
-    #six{
+    #WhatIdoBallon{
         flex-basis: 35%;
         height: 210px;
         margin-top: -10px;
@@ -640,10 +640,10 @@ body main div span{
         border-bottom-right-radius: 45px;
         margin-left: 23%;
     }
-    #six h2{
+    #WhatIdoBallon h2{
         font-size: 30px;
     }
-    #six li{
+    #WhatIdoBallon li{
         font-size: 19px;
         margin-left: 40px;
     }

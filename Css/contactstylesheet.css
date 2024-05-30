@@ -16,25 +16,24 @@ body main{
     gap: 2%;
 }
 
+main>div{
+    margin-top: 2%;
+    width: 50%;
+}
+
 main>div>div{
     height: 100px;
     width: 100%;
     display: flex;
-    flex-basis: 50%;
-    flex-direction: row;
-    justify-content: left;
     align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
     background-color: #382e48;
-    /* margin-left: 5%; */
 }
 
 main>div>div>img{
     color: #3ee0c5;
     margin-right: 10px;
     background: transparent;
-    width: 10%;
+    width: 14%;
 }
 main>div>div>a{
     font-size: 25px;
@@ -56,8 +55,7 @@ figcaption img{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 400px) 
 {
-    body
-    {
+    body{
         background-color: #3ee0c5;
     }
     
@@ -72,11 +70,14 @@ figcaption img{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) 
 {
-    body
-    {
+    body{
         background-color:#FDECFB;
     }
     
+    main>div{
+        width: 100%;
+    }
+
     main>div>div>a{
     font-size: 20px;
     text-decoration: none;
@@ -88,9 +89,12 @@ figcaption img{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px)
 {
-    body
-    {
+    body{
         background-color:bisque;
+    }
+    
+    main>div{
+    width: 48%;
     }
     
     main>div>div>a{
@@ -99,29 +103,43 @@ figcaption img{
     color: #3ee0c5;
     background: transparent;
     }
+    
+    figcaption{
+        width: 50%;
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
+@media only screen and (min-width: 992px) and (max-width: 1200px)
 {
-    body
-    {
+    body{
         background-color:#941385;
     }
     
+    main>div{
+    width: 48%;
+    }
+
     main>div>div>a{
     font-size: 23px;
     text-decoration: none;
     color: #3ee0c5;
     background: transparent;
     }
+
+    figcaption{
+        width: 50%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)
 {  
-    body
-    {
+    body{
         background-color:#776775;
+    }
+    
+    main>div{
+    width: 48%;
     }
 
     main>div>div>a{
@@ -129,5 +147,9 @@ figcaption img{
     text-decoration: none;
     color: #3ee0c5;
     background: transparent;
+    }
+
+    figcaption{
+        width: 50%;
     }
 }

@@ -134,7 +134,7 @@ iframe{
     background-color: transparent;
 } */
 
-/* Extra smaller devices (phones, 400px and down) */
+/* Para aparelhos com ecrãs maiores que 225px e menores que 400px */
 @media only screen and (max-width: 400px) and (min-width:225px)
 {
     body main div{
@@ -161,7 +161,7 @@ iframe{
         height: 145px;
     }
 }
-/* Extra small devices (phones, 600px and down) */
+/* Para aparelhos com ecrãs maiores que 400px e menores que 600px */
 @media only screen and (max-width: 600px) and (min-width: 400px) 
 {
     body main div{
@@ -183,7 +183,7 @@ iframe{
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
 @media only screen and (max-width: 750px) and (min-width: 600px) 
 {
     #sketch1{
@@ -200,7 +200,7 @@ iframe{
     }
 }
 
-/* Medium devices (landscape tablets, 750px and up) */
+/* Para aparelhos com ecrãs maiores que 750px */
 @media only screen and (min-width: 750px)
 {
     #sketch1{
@@ -218,7 +218,7 @@ iframe{
         height: 240px;
     }
 }
-/* Large devices (laptops/desktops, 990px and up) */
+/* Para aparelhos com ecrãs maiores que 990px */
 @media only screen and (min-width: 990px)
 {
     #sketch1{
@@ -238,7 +238,7 @@ iframe{
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Para aparelhos com ecrãs maiores que 1200px  */
 @media only screen and (min-width: 1200px)
 {  
     body main{

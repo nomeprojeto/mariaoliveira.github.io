@@ -168,7 +168,7 @@ body main div span{
     background-color: transparent;
 }
 
-/* Para aparelhos mais pequenos que 420px e maiores que 225px */
+/* Para aparelhos com ecrãs mais pequenos que 420px e maiores que 225px */
 @media only screen and (max-width: 420px) and (min-width:225px)
 {
     #one{
@@ -215,7 +215,7 @@ body main div span{
         font-size: 18px;
     }
 }
-/* Para aparelhos mais pequenos que 5990px e maiores que 420px */
+/* Para aparelhos com ecrãs mais pequenos que 5990px e maiores que 420px */
 @media only screen and (max-width: 599px) and (min-width: 420px) 
 {
     #one{
@@ -292,7 +292,7 @@ body main div span{
     }
 }
 
-/* Para aparelhos mais pequenos que 750px e maiores que 600px */
+/* Para aparelhos com ecrãs mais pequenos que 750px e maiores que 600px */
 @media only screen and (max-width: 750px) and (min-width: 600px) 
 {
     #one{
@@ -377,7 +377,7 @@ body main div span{
 
 }
 
-/* Para aparelhos maiores que 750px */
+/* Para aparelhos com ecrãs maiores que 750px  */
 @media only screen and (min-width: 750px)
 {
     #one{
@@ -458,7 +458,7 @@ body main div span{
         font-size: 22px;
     }
 }
-/* Para aparelhos maiores que 990px */
+/* Para aparelhos com ecrãs maiores que 990px */
 @media only screen and (min-width: 990px)
 {
     #one{
@@ -536,7 +536,7 @@ body main div span{
     }
 }
 
-/* Para aparelhos maiores que 1200px */
+/* Para aparelhos com ecrãs maiores que 1200px */
 @media only screen and (min-width: 1200px)
 {  
     #one{

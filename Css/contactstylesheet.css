@@ -33,6 +33,8 @@ main>div>div{
 #mail{
     height: 80px;
     width: 48%;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
 }
 #mail img{
     color: #3ee0c5;
@@ -50,6 +52,8 @@ main>div>div{
 #youtube{
     height: 80px;
     width: 48%;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
 }
 #youtube img{
     color: #3ee0c5;
@@ -67,6 +71,8 @@ main>div>div{
 #behance{
     height: 80px;
     width: 48%;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
 }
 #behance img{
     color: #3ee0c5;
@@ -83,6 +89,8 @@ main>div>div{
 
 #instagram{
     height: 80px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
     width: 48%;
 }
 #instagram img{
@@ -93,6 +101,8 @@ main>div>div{
 }
 #instagram a{
     font-size: 25px;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
     text-decoration: none;
     color: #3ee0c5;
     background: transparent;
@@ -109,7 +119,7 @@ figcaption img{
 footer p{
     margin-top: 2%;
 }
-/* Extra small devices (phones, 600px and down) */
+/* Para aparelhos com ecrãs menores que 600px  */
 @media only screen and (max-width: 600px)
 {
     #mail a{
@@ -126,7 +136,7 @@ footer p{
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Para aparelhos com ecrãs maiores que 600px */
 @media only screen and (min-width: 600px) 
 {
     #mail a{
@@ -143,7 +153,7 @@ footer p{
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Para aparelhos com ecrãs maiores que 768px */
 @media only screen and (min-width: 768px)
 {
     #mail img{
@@ -187,7 +197,7 @@ footer p{
         font-size: 20px;
     }
 }
-/* Large devices (laptops/desktops, 992px and up) */
+/* Para aparelhos com ecrãs maiores que 990px e menores que 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1200px)
 {
     #mail img{
@@ -232,7 +242,7 @@ footer p{
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Para aparelhos com ecrãs maiores que 1200px  */
 @media only screen and (min-width: 1200px)
 {
     #mail img{

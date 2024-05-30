@@ -53,7 +53,8 @@ body header nav ul li{
 body header nav a{
     background-color: transparent;
     text-decoration: none;
-    font-weight: bold;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 800;
     color:#FDECFB;
     font-size: 17px;
     text-shadow: 0px 0px 2px #000000;
@@ -121,8 +122,8 @@ footer p{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) and (min-width: 400px) 
+/* Para aparelhos com ecrãs menores que 600px */
+@media only screen and (max-width: 600px)
 {
     body header nav ul a{
         font-size: 16px;
@@ -132,7 +133,7 @@ footer p{
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Para aparelhos com ecrãs maiores que 600px e menores que 750px */
 @media only screen and (max-width: 750px) and (min-width: 600px)  
 {
     body header nav ul a{
@@ -143,7 +144,7 @@ footer p{
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Para aparelhos com ecrãs maiores que 750px */
 @media only screen and (min-width: 750px)
 {
     body header nav ul a{
@@ -153,7 +154,7 @@ footer p{
         font-size: 16px;
     }
 }
-/* Large devices (laptops/desktops, 990px and up) */
+/* Para aparelhos com ecrãs maiores que 990px */
 @media only screen and (min-width: 990px) 
 {
     body header nav ul a{
@@ -164,7 +165,7 @@ footer p{
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Para aparelhos com ecrãs maiores que 1200px  */
 @media only screen and (min-width: 1200px)
 {  
     body header nav ul a{

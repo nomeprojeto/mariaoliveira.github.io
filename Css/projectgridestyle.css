@@ -31,7 +31,7 @@ iframe{
     height: 204px;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Para aparelhos com ecrãs maiores que 400px e menores que 600px */
 @media only screen and (max-width: 600px) and (min-width: 400px) 
 {
     iframe{
@@ -40,7 +40,7 @@ iframe{
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Para aparelhos com ecrãs maiores que 600px e menores que 700px */
 @media only screen and (max-width: 750px) and (min-width: 600px) 
 {
     iframe{
@@ -49,7 +49,7 @@ iframe{
     }
 }
 
-/* Medium devices (landscape tablets, 750px and up) */
+/* Para aparelhos com ecrãs maiores que 750px  */
 @media only screen and (min-width: 750px)
 {
     iframe{
@@ -57,7 +57,7 @@ iframe{
         height: 240px;
     }
 }
-/* Large devices (laptops/desktops, 990px and up) */
+/* Para aparelhos com ecrãs maiores que 990px */
 @media only screen and (min-width: 990px)
 {
     iframe{
@@ -66,7 +66,7 @@ iframe{
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Para aparelhos com ecrãs maiores que 1200px */
 @media only screen and (min-width: 1200px)
 {
     table tr td img{

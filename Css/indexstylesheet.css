@@ -1,3 +1,14 @@
+/* Maria Oliveira Nº3210474
+Exercicio Portefólio
+3º ano 2023.24
+Docente Marco Heleno
+31.05.2024 */
+
+/* Flex, display e derivados do flex foram usados
+para melhor distribuir o conteudo dentro da página,
+eles servem para dar mais flexibilidade ao programador
+de coloca-los onde quer. */
+
 body main{
     padding: 10px;
     margin-left: 5%;
@@ -12,9 +23,16 @@ body main{
 
 }
 
+/* O background color serve para determinar que cor
+queremos de fundo dentro do conteudo em questão. */
+
 body main div{
     background-color: #382e48;
 }
+
+/* O width serve para determinar que espaço queremos
+que todo o conteudo relacionado esteja a usar, em relação
+ao espaço da pagina em questão. */
 
 body main div h2{
     width: 100%;
@@ -26,6 +44,15 @@ body main div p{
     width: 100%;
     background-color: #382e48;
 }
+
+/* O height, como width, também serve para determinar que
+espaço queremos que todo o conteudo relacionado esteja
+a usar, em relação ao espaço da pagina em questão.
+
+No entanto, enquanto width determina a largura,
+o height determina a altura. */
+
+/* O align e seus derivados servem para alinhar o conteudo em questão. */
 
 body main div span{
     flex-basis: 45%;

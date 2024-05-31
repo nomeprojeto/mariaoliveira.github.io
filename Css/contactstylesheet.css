@@ -1,7 +1,13 @@
-body{
-    margin: 10px;
-    padding: 10px;
-}
+/* Maria Oliveira Nº3210474
+Exercicio Portefólio
+3º ano 2023.24
+Docente Marco Heleno
+31.05.2024 */
+
+/* Flex, display e derivados do flex foram usados
+para melhor distribuir o conteudo dentro da página,
+eles servem para dar mais flexibilidade ao programador
+de coloca-los onde quer. */
 
 body main{
     padding: 10px;
@@ -15,20 +21,38 @@ body main{
     gap: 2%;
 }
 
+/* As margens servem para dar espaço entre os conteudos da pagina. */
+
 main h1{
     margin-top: 1%;
     margin-bottom: 3%;
 }
+
+/* O width serve para determinar que espaço queremos
+que todo o conteudo relacionado esteja a usar, em relação
+ao espaço da pagina em questão. */
+
 main>div{
     width: 100%;
     background: transparent;
 }
+
+/* O align e seus derivados servem para alinhar o conteudo em questão.
+   O background color serve para determinar que cor
+   queremos de fundo dentro do conteudo em questão. */
 
 main>div>div{
     display: flex;
     align-items: center;
     background-color: #382e48;
 }
+
+/* O height, como width, também serve para determinar que
+espaço queremos que todo o conteudo relacionado esteja
+a usar, em relação ao espaço da pagina em questão.
+
+No entanto, enquanto width determina a largura,
+o height determina a altura. */
 
 #mail{
     height: 80px;

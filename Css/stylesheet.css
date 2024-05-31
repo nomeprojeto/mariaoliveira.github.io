@@ -1,3 +1,9 @@
+/* Maria Oliveira Nº3210474
+Exercicio Portefólio
+3º ano 2023.24
+Docente Marco Heleno
+31.05.2024 */
+
 *{
     /* outline: 1px dashed rgb(255, 0, 0); */
     outline-offset: -1px;
@@ -5,6 +11,9 @@
     padding: 0;
     background-color: #000000;
 }
+
+/* O codigo em questão serve para as pessoas não
+conseguirem guardar as fotos da página.*/
 
 img{
     pointer-events: none;
@@ -14,11 +23,19 @@ img{
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
+/* As margens servem para dar espaço entre os conteudos da pagina.
+   Dentro desse conteudo, o padding determina quanto espaço
+   é retirado ao restante. */
+
 body{
     background-color: #382e48;
     margin: 10px;
     padding: 10px;
 }
+
+/* O align e seus derivados servem para alinhar o conteudo em questão.
+   Os codigos de border e seus derivados servem para editar as bordas
+   dos conteudos em questão.*/
 
 body header{
     align-self: center;
@@ -27,6 +44,17 @@ body header{
     border-color: #A4749F;
     margin-bottom: 30px;
 }
+
+/* O width e height servem para determinar que espaço queremos
+que todo o conteudo relacionado esteja a usar, em relação
+ao espaço da pagina em questão.
+
+No entanto, enquanto width determina a largura,
+o height determina a altura. */
+
+
+/* O background color serve para determinar que cor
+queremos de fundo dentro do conteudo em questão. */
 
 body header nav{
     width: 100%;
@@ -42,13 +70,13 @@ body header nav ul{
     list-style: none;
     display: inline-block;
     padding:10px;
- }
+}
 
 body header nav ul li{
     background-color: transparent;
     float: left;
     margin: 10px;
- }
+}
 
 body header nav a{
     background-color: transparent;
@@ -59,6 +87,8 @@ body header nav a{
     font-size: 17px;
     text-shadow: 0px 0px 2px #000000;
 }
+
+/* As margens servem para dar espaço entre os conteudos da pagina. */
 
 body main{
     align-content: right;
@@ -106,6 +136,9 @@ body main p{
     text-orientation:sideways;
     background-color: #382e48;
 }
+
+
+/* As margens servem para dar espaço entre os conteudos da pagina. */
 
 footer{
     margin-top: 5%;

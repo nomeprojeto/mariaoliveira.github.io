@@ -50,9 +50,11 @@ espaço queremos que todo o conteudo relacionado esteja
 a usar, em relação ao espaço da pagina em questão.
 
 No entanto, enquanto width determina a largura,
-o height determina a altura. */
+o height determina a altura.
 
-/* O align e seus derivados servem para alinhar o conteudo em questão. */
+O align e seus derivados servem para alinhar o conteudo em questão.
+
+Color serve para determinar a cor do texto em questão */
 
 body main div span{
     flex-basis: 45%;

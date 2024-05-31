@@ -31,6 +31,10 @@ body main figure img{
     width: 100%;
 }
 
+/* Os códigos font, text e derivados de ambos servem editar os textos dos conteudos.
+
+Color serve para determinar a cor do texto em questão */
+
 body main figure figcaption{
     text-align: center;
     color: #FDECFB;

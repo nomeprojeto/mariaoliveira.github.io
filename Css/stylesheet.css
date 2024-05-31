@@ -78,6 +78,10 @@ body header nav ul li{
     margin: 10px;
 }
 
+/* Os códigos font, text e derivados de ambos servem editar os textos dos conteudos.
+
+Color serve para determinar a cor do texto em questão */
+
 body header nav a{
     background-color: transparent;
     text-decoration: none;
